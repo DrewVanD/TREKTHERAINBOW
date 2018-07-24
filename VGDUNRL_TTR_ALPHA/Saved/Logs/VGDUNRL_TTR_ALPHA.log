@@ -1,4 +1,4 @@
-﻿Log file open, 07/23/18 21:04:58
+﻿Log file open, 07/24/18 18:14:44
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VGDUNRL_TTR_ALPHA
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-371307149) SRandInit(-371307149).
+LogInit: Display: RandInit(1246278662) SRandInit(1246278663).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.276673
+LogStats: Stats thread started at 0.265900
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  1.222s to configure plugins.
+LogStreaming: Display: Took  0.768s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -188,7 +188,7 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am DESKTOP-T3RQ42G (192.168.100.104:0)
+LogInit: WinSock: I am DESKTOP-KBJ6S3T (192.168.1.134:0)
 LogInit: Build: ++UE4+Release-4.19-CL-4033788
 LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -216,194 +216,644 @@ LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
-LogInit: Command Line: 
-LogInit: Base Directory: D:/Program Files (x86)/UE_4.19/Engine/Binaries/Win64/
+LogInit: Command Line: -EpicPortal 
+LogInit: Base Directory: D:/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.003s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.07.24-01.05.00:265][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.24-01.05.00:265][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.07.24-01.05.00:278][  0]LogInit: Computer: DESKTOP-T3RQ42G
-[2018.07.24-01.05.00:278][  0]LogInit: User: Andre
-[2018.07.24-01.05.00:278][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.07.24-01.05.00:278][  0]LogInit: High frequency timer resolution =2.742189 MHz
-[2018.07.24-01.05.00:278][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.07.24-01.05.00:278][  0]LogMemory: Platform Memory Stats for Windows
-[2018.07.24-01.05.00:278][  0]LogMemory: Process Physical Memory: 274.68 MB used, 274.68 MB peak
-[2018.07.24-01.05.00:278][  0]LogMemory: Process Virtual Memory: 264.81 MB used, 264.81 MB peak
-[2018.07.24-01.05.00:278][  0]LogMemory: Physical Memory: 6884.54 MB used,  9372.48 MB free, 16257.03 MB total
-[2018.07.24-01.05.00:279][  0]LogMemory: Virtual Memory: 4794.19 MB used,  9372.48 MB free, 134217728.00 MB total
-[2018.07.24-01.05.00:541][  0]LogInit: Using OS detected language (en-US).
-[2018.07.24-01.05.00:541][  0]LogInit: Using OS detected locale (en-CA).
-[2018.07.24-01.05.00:545][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.07.24-01.05.01:037][  0]LogStreaming: Display: Took  0.497s to EndInitTextLocalization.
-[2018.07.24-01.05.01:037][  0]LogInit: Setting process to per monitor DPI aware
-[2018.07.24-01.05.01:088][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.07.24-01.05.01:088][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.07.24-01.05.01:389][  0]LogD3D11RHI: D3D11 adapters:
-[2018.07.24-01.05.01:455][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.07.24-01.05.01:455][  0]LogD3D11RHI:       8081/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.07.24-01.05.01:476][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.07.24-01.05.01:476][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.07.24-01.05.01:478][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.07.24-01.05.01:478][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.07.24-01.05.01:478][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.07.24-01.05.01:486][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.07.24-01.05.01:486][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
-[2018.07.24-01.05.01:486][  0]LogWindows: EnumDisplayDevices:
-[2018.07.24-01.05.01:486][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.07.24-01.05.01:486][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2018.07.24-01.05.01:487][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.07.24-01.05.01:487][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.07.24-01.05.01:487][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.07.24-01.05.01:487][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.07.24-01.05.01:487][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.07.24-01.05.01:487][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.07.24-01.05.01:487][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.07.24-01.05.01:487][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.07.24-01.05.01:487][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.07.24-01.05.01:487][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
-[2018.07.24-01.05.01:524][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.07.24-01.05.01:524][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.07.24-01.05.01:524][  0]LogD3D11RHI: Async texture creation enabled
-[2018.07.24-01.05.01:565][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.07.24-01.05.01:613][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Intermediate/Shaders/WorkingDirectory/14432/).
-[2018.07.24-01.05.01:613][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Andre/AppData/Local/Temp/UnrealShaderWorkingDir/953D359D409D552DC9136488E13586A3/'.
-[2018.07.24-01.05.01:920][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.07.24-01.05.01:934][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.07.24-01.05.01:947][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.07.24-01.05.01:962][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.07.24-01.05.01:977][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.07.24-01.05.01:991][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.07.24-01.05.02:007][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.07.24-01.05.02:022][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.07.24-01.05.02:028][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.07.24-01.05.02:041][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.07.24-01.05.02:056][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.07.24-01.05.02:069][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.07.24-01.05.02:083][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.07.24-01.05.02:096][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.07.24-01.05.02:112][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.07.24-01.05.02:141][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.07.24-01.05.02:141][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.07.24-01.05.02:158][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.07.24-01.05.02:159][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.07.24-01.05.02:199][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.07.24-01.05.02:213][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.07.24-01.05.02:226][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.07.24-01.05.02:238][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.07.24-01.05.02:251][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.07.24-01.05.02:266][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.07.24-01.05.02:266][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.07.24-01.05.02:378][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.07.24-01.05.02:378][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.07.24-01.05.02:378][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.07.24-01.05.03:117][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.07.24-01.05.03:182][  0]LogDerivedDataCache: Loaded boot cache 0.06s 74MB C:/Users/Andre/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.07.24-01.05.03:182][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Andre/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.07.24-01.05.03:182][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.07.24-01.05.03:182][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.07.24-01.05.03:182][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.07.24-01.05.03:182][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.07.24-01.05.03:199][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.07.24-01.05.03:212][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Andre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.07.24-01.05.03:212][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.07.24-01.05.03:212][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.07.24-01.05.03:227][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.07.24-01.05.03:227][  0]LogSlate: Using Freetype 2.6.0
-[2018.07.24-01.05.03:228][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.24-01.05.03:228][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.24-01.05.03:366][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
-[2018.07.24-01.05.03:700][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.24-01.05.03:849][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.07.24-01.05.03:852][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.07.24-01.05.03:852][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.07.24-01.05.03:852][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.07.24-01.05.03:852][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.07.24-01.05.03:852][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.07.24-01.05.03:895][  0]LogNetVersion: VGDUNRL_TTR_ALPHA , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 625581311)
-[2018.07.24-01.05.04:363][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.090769 seconds
-[2018.07.24-01.05.04:370][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.07.24-01.05.04:370][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2018.07.24-01.05.04:370][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.07.24-01.05.06:152][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.07.24-01.05.06:183][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.07.24-01.05.06:599][  0]SourceControl: Source control is disabled
-[2018.07.24-01.05.06:599][  0]SourceControl: Source control is disabled
-[2018.07.24-01.05.06:623][  0]SourceControl: Source control is disabled
-[2018.07.24-01.05.06:648][  0]SourceControl: Source control is disabled
-[2018.07.24-01.05.07:215][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.07.24-01.05.07:394][  0]LogOcInput: OculusInput pre-init called
-[2018.07.24-01.05.07:511][  0]LogEngine: Initializing Engine...
-[2018.07.24-01.05.07:512][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.07.24-01.05.07:514][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.24-01.05.07:514][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.24-01.05.07:743][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.07.24-01.05.07:757][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.07.24-01.05.07:837][  0]LogInit: FAudioDevice initialized.
-[2018.07.24-01.05.07:921][  0]LogDerivedDataCache: Saved boot cache 0.08s 74MB C:/Users/Andre/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.07.24-01.05.07:936][  0]LogInit: Texture streaming: Enabled
-[2018.07.24-01.05.07:949][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.07.24-01.05.07:960][  0]LogInit: Transaction tracking system initialized
-[2018.07.24-01.05.07:978][  0]BlueprintLog: New page: Editor Load
-[2018.07.24-01.05.08:039][  0]LocalizationService: Localization service is disabled
-[2018.07.24-01.05.08:150][  0]LogConsoleResponse: Display: 
-[2018.07.24-01.05.08:328][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.07.24-01.05.08:328][  0]LogCook: Display: Mobile HDR setting 1
-[2018.07.24-01.05.08:328][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.07.24-01.05.08:328][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.24-01.05.08:328][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.24-01.05.08:385][  0]LogFileCache: Scanning file cache for directory 'D:/UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/' took 0.01s
-[2018.07.24-01.05.08:754][  0]SourceControl: Source control is disabled
-[2018.07.24-01.05.08:754][  0]Cmd: MAP LOAD FILE="../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.07.24-01.05.08:754][  0]LightingResults: New page: Lighting Build
-[2018.07.24-01.05.08:756][  0]MapCheck: New page: Map Check
-[2018.07.24-01.05.08:756][  0]LightingResults: New page: Lighting Build
-[2018.07.24-01.05.08:833][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000140c57f4540, Size=288, Default__2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
-[2018.07.24-01.05.08:844][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000140c57f4540, Size=288
-[2018.07.24-01.05.08:844][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000140aa16fb00, Size=288, Default__2DSideScrollerCharacter_C Function /Engine/Transient.REINST_2DSideScrollerCharacter_C_3:ExecuteUbergraph_2DSideScrollerCharacter
-[2018.07.24-01.05.08:852][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000140aa16f240, Size=288, Default__2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
-[2018.07.24-01.05.08:858][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000140aa0e7df0, Size=20, Default__2DSideScrollerGameMode_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode.2DSideScrollerGameMode_C:ExecuteUbergraph_2DSideScrollerGameMode
-[2018.07.24-01.05.08:860][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000140aa0e7df0, Size=20
-[2018.07.24-01.05.08:860][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000140aa0e7df0, Size=20, Default__2DSideScrollerGameMode_C Function /Engine/Transient.REINST_2DSideScrollerGameMode_C_5:ExecuteUbergraph_2DSideScrollerGameMode
-[2018.07.24-01.05.08:862][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000140aa0e7958, Size=20, Default__2DSideScrollerGameMode_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode.2DSideScrollerGameMode_C:ExecuteUbergraph_2DSideScrollerGameMode
-[2018.07.24-01.05.08:875][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000140c5223960, Size=32, Default__BP_Teleporter_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter.BP_Teleporter_C:ExecuteUbergraph_BP_Teleporter
-[2018.07.24-01.05.08:876][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000140c5223960, Size=32
-[2018.07.24-01.05.08:877][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000140c5223960, Size=32, Default__BP_Teleporter_C Function /Engine/Transient.REINST_BP_Teleporter_C_7:ExecuteUbergraph_BP_Teleporter
-[2018.07.24-01.05.08:878][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000140c5220940, Size=32, Default__BP_Teleporter_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter.BP_Teleporter_C:ExecuteUbergraph_BP_Teleporter
-[2018.07.24-01.05.08:890][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000140aa0b7300, Size=128, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
-[2018.07.24-01.05.08:894][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000140aa0b7300, Size=128
-[2018.07.24-01.05.08:894][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000140aa0b7300, Size=128, Default__2DSideScrollerExampleMap_C Function /Engine/Transient.REINST_2DSideScrollerExampleMap_C_9:ExecuteUbergraph_2DSideScrollerExampleMap
-[2018.07.24-01.05.08:897][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000140aa0b7980, Size=128, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
-[2018.07.24-01.05.08:995][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
-[2018.07.24-01.05.09:008][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.07.24-01.05.09:019][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000140aa16fb00, Size=288
-[2018.07.24-01.05.09:019][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000140aa0e7df0, Size=20
-[2018.07.24-01.05.09:019][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000140c5223960, Size=32
-[2018.07.24-01.05.09:019][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000140aa0b7300, Size=128
-[2018.07.24-01.05.09:019][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.07.24-01.05.09:081][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.216ms to complete.
-[2018.07.24-01.05.09:081][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.327
-[2018.07.24-01.05.09:238][  0]LogCollectionManager: Loaded 0 collections in 0.001838 seconds
-[2018.07.24-01.05.09:283][  0]LogFileCache: Scanning file cache for directory 'D:/UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/Collections/' took 0.01s
-[2018.07.24-01.05.09:283][  0]LogFileCache: Scanning file cache for directory 'D:/UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/Developers/Andre/Collections/' took 0.01s
-[2018.07.24-01.05.09:283][  0]LogFileCache: Scanning file cache for directory 'D:/UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/Collections/' took 0.01s
-[2018.07.24-01.05.09:283][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.07.24-01.05.09:292][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2452 classes and 558 folders.
-[2018.07.24-01.05.09:299][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.07.24-01.05.09:358][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.07.24-01.05.09:362][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.07.24-01.05.09:426][  0]LogSlate: Took 0.000304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.07.24-01.05.09:429][  0]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.07.24-01.05.09:439][  0]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.07.24-01.05.09:539][  0]LogRenderer: Reallocating scene render targets to support 972x488 Format 10 NumSamples 1 (Frame:1).
-[2018.07.24-01.05.09:647][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.07.24-01.05.09:648][  0]LogLoad: (Engine Initialization) Total time: 12.15 seconds
-[2018.07.24-01.05.09:648][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.07.24-01.05.09:666][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.07.24-01.05.09:686][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.07.24-01.05.09:764][  1]LogAssetRegistry: Asset discovery search completed in 6.4211 seconds
-[2018.07.24-01.05.09:767][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.07.24-01.05.09:767][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000093 seconds (updated 0 objects)
-[2018.07.24-01.05.10:697][ 55]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.24-22.14.45:557][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.24-22.14.45:557][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.24-22.14.45:629][  0]LogInit: Computer: DESKTOP-KBJ6S3T
+[2018.07.24-22.14.45:629][  0]LogInit: User: Sunne
+[2018.07.24-22.14.45:629][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.07.24-22.14.45:629][  0]LogInit: High frequency timer resolution =2.742185 MHz
+[2018.07.24-22.14.45:629][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.07.24-22.14.45:629][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.24-22.14.45:629][  0]LogMemory: Process Physical Memory: 275.13 MB used, 275.13 MB peak
+[2018.07.24-22.14.45:629][  0]LogMemory: Process Virtual Memory: 264.79 MB used, 264.79 MB peak
+[2018.07.24-22.14.45:629][  0]LogMemory: Physical Memory: 8517.65 MB used,  7739.38 MB free, 16257.03 MB total
+[2018.07.24-22.14.45:629][  0]LogMemory: Virtual Memory: 4794.23 MB used,  7739.38 MB free, 134217728.00 MB total
+[2018.07.24-22.14.46:017][  0]LogInit: Using OS detected language (en-US).
+[2018.07.24-22.14.46:017][  0]LogInit: Using OS detected locale (en-CA).
+[2018.07.24-22.14.46:023][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.07.24-22.14.46:570][  0]LogStreaming: Display: Took  0.553s to EndInitTextLocalization.
+[2018.07.24-22.14.46:570][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.24-22.14.46:607][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.24-22.14.46:607][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.24-22.14.46:776][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.24-22.14.46:830][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.07.24-22.14.46:830][  0]LogD3D11RHI:       8081/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.07.24-22.14.46:852][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.07.24-22.14.46:852][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.07.24-22.14.46:854][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.24-22.14.46:854][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.24-22.14.46:854][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.24-22.14.46:861][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.24-22.14.46:861][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.24-22.14.46:861][  0]LogWindows: EnumDisplayDevices:
+[2018.07.24-22.14.46:861][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.07.24-22.14.46:862][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.07.24-22.14.46:862][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.07.24-22.14.46:862][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.07.24-22.14.46:862][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.07.24-22.14.46:862][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.07.24-22.14.46:862][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.07.24-22.14.46:862][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.24-22.14.46:862][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.07.24-22.14.46:862][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.24-22.14.46:862][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.24-22.14.46:862][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2018.07.24-22.14.46:896][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.24-22.14.46:896][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.24-22.14.46:896][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.24-22.14.46:913][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.07.24-22.14.46:960][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../GameDev/UnrealProject/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Intermediate/Shaders/WorkingDirectory/17920/).
+[2018.07.24-22.14.46:960][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sunne/AppData/Local/Temp/UnrealShaderWorkingDir/B37F9AB34C965F5EC35B3B93AE085388/'.
+[2018.07.24-22.14.47:211][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.24-22.14.47:225][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.24-22.14.47:239][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.24-22.14.47:251][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.24-22.14.47:266][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.24-22.14.47:279][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.24-22.14.47:292][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.24-22.14.47:306][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.24-22.14.47:312][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.24-22.14.47:324][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.24-22.14.47:336][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.24-22.14.47:347][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.24-22.14.47:359][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.07.24-22.14.47:371][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.24-22.14.47:382][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.24-22.14.47:407][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.24-22.14.47:407][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.24-22.14.47:418][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.24-22.14.47:419][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.24-22.14.47:456][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.24-22.14.47:472][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.24-22.14.47:496][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.24-22.14.47:509][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.24-22.14.47:522][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.24-22.14.47:535][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.24-22.14.47:535][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.24-22.14.47:611][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.24-22.14.47:611][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.24-22.14.47:611][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.24-22.14.48:242][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.24-22.14.48:305][  0]LogDerivedDataCache: Loaded boot cache 0.06s 74MB C:/Users/Sunne/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.24-22.14.48:305][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Sunne/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.07.24-22.14.48:305][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GameDev/UnrealProject/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.24-22.14.48:305][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.24-22.14.48:305][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GameDev/UnrealProject/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.24-22.14.48:305][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.24-22.14.48:320][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.24-22.14.48:332][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sunne/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.24-22.14.48:332][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.07.24-22.14.48:332][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.07.24-22.14.48:343][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.24-22.14.48:343][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.24-22.14.48:344][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.24-22.14.48:344][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.24-22.14.48:443][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2018.07.24-22.14.48:756][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.24-22.14.48:903][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.24-22.14.48:905][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.24-22.14.48:905][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.24-22.14.48:905][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.24-22.14.48:905][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.24-22.14.48:905][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.24-22.14.48:932][  0]LogNetVersion: VGDUNRL_TTR_ALPHA , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 625581311)
+[2018.07.24-22.14.49:428][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.078499 seconds
+[2018.07.24-22.14.49:433][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.07.24-22.14.49:433][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.07.24-22.14.49:433][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.24-22.14.51:032][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.24-22.14.51:055][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.24-22.14.51:372][  0]SourceControl: Source control is disabled
+[2018.07.24-22.14.51:372][  0]SourceControl: Source control is disabled
+[2018.07.24-22.14.51:384][  0]SourceControl: Source control is disabled
+[2018.07.24-22.14.51:394][  0]SourceControl: Source control is disabled
+[2018.07.24-22.14.51:785][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.24-22.14.51:891][  0]LogOcInput: OculusInput pre-init called
+[2018.07.24-22.14.51:978][  0]LogEngine: Initializing Engine...
+[2018.07.24-22.14.51:979][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.24-22.14.51:981][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.24-22.14.51:981][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.24-22.14.52:195][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.24-22.14.52:263][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.07.24-22.14.52:272][  0]LogInit: FAudioDevice initialized.
+[2018.07.24-22.14.52:361][  0]LogDerivedDataCache: Saved boot cache 0.09s 74MB C:/Users/Sunne/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.24-22.14.52:387][  0]LogInit: Texture streaming: Enabled
+[2018.07.24-22.14.52:402][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.24-22.14.52:418][  0]LogInit: Transaction tracking system initialized
+[2018.07.24-22.14.52:437][  0]BlueprintLog: New page: Editor Load
+[2018.07.24-22.14.52:486][  0]LocalizationService: Localization service is disabled
+[2018.07.24-22.14.52:572][  0]LogConsoleResponse: Display: 
+[2018.07.24-22.14.52:734][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.24-22.14.52:734][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.24-22.14.52:734][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.24-22.14.52:734][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.24-22.14.52:734][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.24-22.14.52:975][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/UnrealProject/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/' took 0.01s
+[2018.07.24-22.14.52:975][  0]SourceControl: Source control is disabled
+[2018.07.24-22.14.52:975][  0]Cmd: MAP LOAD FILE="../../../../GameDev/UnrealProject/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.24-22.14.52:976][  0]LightingResults: New page: Lighting Build
+[2018.07.24-22.14.52:977][  0]MapCheck: New page: Map Check
+[2018.07.24-22.14.52:977][  0]LightingResults: New page: Lighting Build
+[2018.07.24-22.14.53:501][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a132a6340, Size=288, Default__2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.24-22.14.53:529][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a132a6340, Size=288
+[2018.07.24-22.14.53:529][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a132a6340, Size=288, Default__2DSideScrollerCharacter_C Function /Engine/Transient.REINST_2DSideScrollerCharacter_C_3:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.24-22.14.53:539][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a132a5440, Size=288, Default__2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.24-22.14.53:546][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a12f28868, Size=20, Default__2DSideScrollerGameMode_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode.2DSideScrollerGameMode_C:ExecuteUbergraph_2DSideScrollerGameMode
+[2018.07.24-22.14.53:549][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a12f28868, Size=20
+[2018.07.24-22.14.53:549][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a12f28868, Size=20, Default__2DSideScrollerGameMode_C Function /Engine/Transient.REINST_2DSideScrollerGameMode_C_5:ExecuteUbergraph_2DSideScrollerGameMode
+[2018.07.24-22.14.53:551][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a12f28340, Size=20, Default__2DSideScrollerGameMode_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode.2DSideScrollerGameMode_C:ExecuteUbergraph_2DSideScrollerGameMode
+[2018.07.24-22.14.53:564][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a7a506080, Size=164, Default__BP_RotatingPlatform_C Function /Game/2DSideScrollerBP/Blueprints/BP_RotatingPlatform.BP_RotatingPlatform_C:ExecuteUbergraph_BP_RotatingPlatform
+[2018.07.24-22.14.53:566][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a7a506080, Size=164
+[2018.07.24-22.14.53:566][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a7a506080, Size=164, Default__BP_RotatingPlatform_C Function /Engine/Transient.REINST_BP_RotatingPlatform_C_7:ExecuteUbergraph_BP_RotatingPlatform
+[2018.07.24-22.14.53:567][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a7a507280, Size=164, Default__BP_RotatingPlatform_C Function /Game/2DSideScrollerBP/Blueprints/BP_RotatingPlatform.BP_RotatingPlatform_C:ExecuteUbergraph_BP_RotatingPlatform
+[2018.07.24-22.14.53:631][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a7a48fe80, Size=32, Default__BP_Teleporter_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter.BP_Teleporter_C:ExecuteUbergraph_BP_Teleporter
+[2018.07.24-22.14.53:638][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a7a48fe80, Size=32
+[2018.07.24-22.14.53:638][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a7a48fe80, Size=32, Default__BP_Teleporter_C Function /Engine/Transient.REINST_BP_Teleporter_C_9:ExecuteUbergraph_BP_Teleporter
+[2018.07.24-22.14.53:642][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a7a48f520, Size=32, Default__BP_Teleporter_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter.BP_Teleporter_C:ExecuteUbergraph_BP_Teleporter
+[2018.07.24-22.14.53:656][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a7a505900, Size=164, Default__BP_VertMov2Plat_C Function /Game/2DSideScrollerBP/Blueprints/BP_VertMov2Plat.BP_VertMov2Plat_C:ExecuteUbergraph_BP_VertMov2Plat
+[2018.07.24-22.14.53:665][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a7a505900, Size=164
+[2018.07.24-22.14.53:665][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a7a505900, Size=164, Default__BP_VertMov2Plat_C Function /Engine/Transient.REINST_BP_VertMov2Plat_C_11:ExecuteUbergraph_BP_VertMov2Plat
+[2018.07.24-22.14.53:671][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a7a505780, Size=164, Default__BP_VertMov2Plat_C Function /Game/2DSideScrollerBP/Blueprints/BP_VertMov2Plat.BP_VertMov2Plat_C:ExecuteUbergraph_BP_VertMov2Plat
+[2018.07.24-22.14.53:678][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a7a504e80, Size=164, Default__BP_VertMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BP_VertMovPlat.BP_VertMovPlat_C:ExecuteUbergraph_BP_VertMovPlat
+[2018.07.24-22.14.53:681][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a7a504e80, Size=164
+[2018.07.24-22.14.53:682][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a7a504e80, Size=164, Default__BP_VertMovPlat_C Function /Engine/Transient.REINST_BP_VertMovPlat_C_13:ExecuteUbergraph_BP_VertMovPlat
+[2018.07.24-22.14.53:684][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a7a507e80, Size=164, Default__BP_VertMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BP_VertMovPlat.BP_VertMovPlat_C:ExecuteUbergraph_BP_VertMovPlat
+[2018.07.24-22.14.53:689][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e63d00, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.14.53:693][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e63d00, Size=176
+[2018.07.24-22.14.53:693][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e63d00, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_15:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.14.53:694][  0]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.14.53:695][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e63580, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.14.53:696][  0]LogBlueprint: Warning: [Compiler BPHorMovPlat] [0010.21] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 4 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.14.53:755][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a7a4d8180, Size=128, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.24-22.14.53:767][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a7a4d8180, Size=128
+[2018.07.24-22.14.53:767][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e0ff00, Size=128, Default__2DSideScrollerExampleMap_C Function /Engine/Transient.REINST_2DSideScrollerExampleMap_C_17:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.24-22.14.53:773][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e0fb00, Size=128, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.24-22.14.53:982][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.07.24-22.14.53:992][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.24-22.14.54:018][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a132a6340, Size=288
+[2018.07.24-22.14.54:018][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a12f28868, Size=20
+[2018.07.24-22.14.54:018][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a7a506080, Size=164
+[2018.07.24-22.14.54:018][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a7a48fe80, Size=32
+[2018.07.24-22.14.54:018][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a7a505900, Size=164
+[2018.07.24-22.14.54:018][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a7a504e80, Size=164
+[2018.07.24-22.14.54:018][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e63d00, Size=176
+[2018.07.24-22.14.54:018][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e0ff00, Size=128
+[2018.07.24-22.14.54:019][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.24-22.14.54:056][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 36.717ms to complete.
+[2018.07.24-22.14.54:056][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 1.081
+[2018.07.24-22.14.54:274][  0]LogCollectionManager: Loaded 0 collections in 0.001192 seconds
+[2018.07.24-22.14.54:331][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/UnrealProject/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/Collections/' took 0.01s
+[2018.07.24-22.14.54:331][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/UnrealProject/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/Developers/Sunne/Collections/' took 0.01s
+[2018.07.24-22.14.54:331][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/UnrealProject/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/Collections/' took 0.01s
+[2018.07.24-22.14.54:331][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.07.24-22.14.54:358][  0]LogContentBrowser: Native class hierarchy populated in 0.0269 seconds. Added 2452 classes and 558 folders.
+[2018.07.24-22.14.54:368][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.07.24-22.14.54:408][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.07.24-22.14.54:411][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.07.24-22.14.54:470][  0]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.24-22.14.54:473][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.24-22.14.54:479][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.24-22.14.54:570][  0]LogRenderer: Reallocating scene render targets to support 988x428 Format 10 NumSamples 1 (Frame:1).
+[2018.07.24-22.14.54:717][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.07.24-22.14.54:717][  0]LogLoad: (Engine Initialization) Total time: 11.23 seconds
+[2018.07.24-22.14.54:717][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.24-22.14.54:735][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.07.24-22.14.54:756][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.24-22.14.54:879][  2]LogAssetRegistry: Asset discovery search completed in 6.4591 seconds
+[2018.07.24-22.14.54:881][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.07.24-22.14.54:881][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2018.07.24-22.15.06:574][701]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.24-22.15.06:748][711]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.24-22.15.07:026][711]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.07.24-22.15.07:318][711]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a076ba730, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.24-22.15.07:319][711]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a076ba728, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.24-22.16.33:649][137]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.24-22.16.33:692][138]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.24-22.16.37:062][340]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.16.37:069][340]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e63580, Size=176
+[2018.07.24-22.16.37:069][340]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a183e4a00, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_33:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.16.37:070][340]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.16.37:071][340]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a183e5480, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.16.37:169][340]LogBlueprint: Warning: [Compiler BPHorMovPlat] [0113.68] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 107 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.22.08:606][786]LogRenderer: Reallocating scene render targets to support 988x532 Format 10 NumSamples 1 (Frame:1).
+[2018.07.24-22.24.55:451][386]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a183e4a00, Size=176
+[2018.07.24-22.24.55:474][386]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e0fb00, Size=128
+[2018.07.24-22.24.55:474][386]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a7e613180, Size=128, Default__2DSideScrollerExampleMap_C Function /Engine/Transient.REINST_2DSideScrollerExampleMap_C_37:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.24-22.24.55:478][386]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a7e611680, Size=128, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.24-22.24.55:903][386]LogSavePackage: Save=441.32ms
+[2018.07.24-22.24.55:903][386]LogSavePackage: Moving '../../../../GameDev/UnrealProject/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/2DSideScrollerExampleMap_Auto111B25BCE4DA346AE761F6DBC85D1EDF7.tmp' to '../../../../GameDev/UnrealProject/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap'
+[2018.07.24-22.24.55:904][386]LogSavePackage: Display: Finished SavePackage ../../../../GameDev/UnrealProject/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap
+[2018.07.24-22.24.55:907][386]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.483
+[2018.07.24-22.24.55:907][386]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.483
+[2018.07.24-22.28.39:797][763]LogRenderer: Reallocating scene render targets to support 988x616 Format 10 NumSamples 1 (Frame:1).
+[2018.07.24-22.28.42:339][915]LogSlate: Window 'BP_VertMovPlat' being destroyed
+[2018.07.24-22.28.42:343][915]LogSlate: Window 'BP_VertMovPlat' being destroyed
+[2018.07.24-22.28.42:420][915]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.07.24-22.29.14:121][783]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.29.14:128][783]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a183e5480, Size=176
+[2018.07.24-22.29.14:128][783]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82f6cd00, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_41:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.29.14:129][783]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.29.14:129][783]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82f6cdc0, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.29.14:214][783]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a7e613180, Size=128
+[2018.07.24-22.29.14:223][783]LogBlueprint: Warning: [Compiler BPHorMovPlat] [0870.74] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 102 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.29.54:699][183]LogSlate: Window 'BP_VertMovPlat' being destroyed
+[2018.07.24-22.29.54:705][183]LogSlate: Window 'BP_VertMovPlat' being destroyed
+[2018.07.24-22.29.54:775][183]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.07.24-22.30.52:507][419]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.30.52:515][419]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82f6cdc0, Size=176
+[2018.07.24-22.30.52:515][419]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a19173880, Size=176, BPHorMovPlat_C_3 Function /Engine/Transient.REINST_BPHorMovPlat_C_45:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.30.52:516][419]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.30.52:516][419]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a19170b80, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.30.52:604][419]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82f6cd00, Size=176
+[2018.07.24-22.30.52:610][419]LogBlueprint: Warning: [Compiler BPHorMovPlat] [0969.12] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 104 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.42:563][391]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.42:570][391]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a19170b80, Size=176
+[2018.07.24-22.31.42:571][391]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a19170b80, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_49:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.42:572][391]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.42:572][391]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a19170f40, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.42:655][391]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a19173880, Size=176
+[2018.07.24-22.31.42:662][391]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1019.17] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 99 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.43:127][417]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.43:135][417]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a19170f40, Size=176
+[2018.07.24-22.31.43:135][417]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea4640, Size=176, BPHorMovPlat_C_4 Function /Engine/Transient.REINST_BPHorMovPlat_C_53:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.43:136][417]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.43:136][417]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea5c00, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.43:216][417]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a19170b80, Size=176
+[2018.07.24-22.31.43:222][417]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1019.73] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 95 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.43:923][457]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.43:930][457]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea5c00, Size=176
+[2018.07.24-22.31.43:931][457]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a19170940, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_57:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.43:932][457]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.43:932][457]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a19173c40, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.44:029][457]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea4640, Size=176
+[2018.07.24-22.31.44:036][457]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1020.55] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 113 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.44:149][462]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.44:167][462]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a19173c40, Size=176
+[2018.07.24-22.31.44:167][462]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e63a00, Size=176, BPHorMovPlat_C_5 Function /Engine/Transient.REINST_BPHorMovPlat_C_61:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.44:168][462]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.44:169][462]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e62b00, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.44:259][462]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a19170940, Size=176
+[2018.07.24-22.31.44:265][462]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1020.78] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 115 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.44:376][467]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.44:383][467]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e62b00, Size=176
+[2018.07.24-22.31.44:384][467]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea7e80, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_65:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.44:384][467]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.44:385][467]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea7a00, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.44:467][467]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e63a00, Size=176
+[2018.07.24-22.31.44:474][467]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1020.99] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 97 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.44:606][472]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.44:615][472]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea7a00, Size=176
+[2018.07.24-22.31.44:615][472]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e62680, Size=176, BPHorMovPlat_C_6 Function /Engine/Transient.REINST_BPHorMovPlat_C_69:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.44:616][472]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.44:617][472]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e63b80, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.44:739][472]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea7e80, Size=176
+[2018.07.24-22.31.44:745][472]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1021.26] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 139 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.44:807][474]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.44:815][474]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e63b80, Size=176
+[2018.07.24-22.31.44:815][474]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea44c0, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_73:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.44:816][474]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.44:816][474]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea65c0, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.44:899][474]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e62680, Size=176
+[2018.07.24-22.31.44:906][474]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1021.42] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 99 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.45:086][483]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.45:093][483]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea65c0, Size=176
+[2018.07.24-22.31.45:093][483]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a19171e40, Size=176, BPHorMovPlat_C_7 Function /Engine/Transient.REINST_BPHorMovPlat_C_77:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.45:094][483]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.45:094][483]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a19170280, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.45:213][483]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea44c0, Size=176
+[2018.07.24-22.31.45:220][483]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1021.73] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 133 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.45:449][495]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.45:456][495]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a19170280, Size=176
+[2018.07.24-22.31.45:456][495]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e628c0, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_81:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.45:457][495]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.45:458][495]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e62800, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.45:558][495]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a19171e40, Size=176
+[2018.07.24-22.31.45:565][495]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1022.08] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 116 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.46:178][530]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.46:186][530]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e62800, Size=176
+[2018.07.24-22.31.46:186][530]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea5840, Size=176, BPHorMovPlat_C_8 Function /Engine/Transient.REINST_BPHorMovPlat_C_85:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.46:187][530]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.46:187][530]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea6800, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.46:270][530]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e628c0, Size=176
+[2018.07.24-22.31.46:276][530]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1022.79] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 98 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.46:689][553]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.46:696][553]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea6800, Size=176
+[2018.07.24-22.31.46:696][553]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e62c80, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_89:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.46:697][553]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.46:698][553]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e628c0, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.46:782][553]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea5840, Size=176
+[2018.07.24-22.31.46:789][553]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1023.30] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 99 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.47:358][585]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.47:365][585]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e628c0, Size=176
+[2018.07.24-22.31.47:365][585]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea5c00, Size=176, BPHorMovPlat_C_9 Function /Engine/Transient.REINST_BPHorMovPlat_C_93:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.47:366][585]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.47:367][585]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea7580, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.47:448][585]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e62c80, Size=176
+[2018.07.24-22.31.47:455][585]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1023.97] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 97 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.48:016][617]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.48:024][617]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea7580, Size=176
+[2018.07.24-22.31.48:024][617]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a19170b80, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_97:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.48:025][617]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.48:026][617]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea4400, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.48:108][617]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea5c00, Size=176
+[2018.07.24-22.31.48:115][617]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1024.63] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 98 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.48:710][651]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.48:718][651]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea4400, Size=176
+[2018.07.24-22.31.48:718][651]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e63940, Size=176, BPHorMovPlat_C_10 Function /Engine/Transient.REINST_BPHorMovPlat_C_101:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.48:719][651]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.48:719][651]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e63640, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.48:823][651]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a19170b80, Size=176
+[2018.07.24-22.31.48:831][651]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1025.34] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 120 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.49:481][688]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.49:489][688]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e63640, Size=176
+[2018.07.24-22.31.49:489][688]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a19170340, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_105:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.49:490][688]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.49:490][688]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a19173940, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.49:571][688]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e63940, Size=176
+[2018.07.24-22.31.49:578][688]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1026.09] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 97 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.50:177][722]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.50:184][722]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a19173940, Size=176
+[2018.07.24-22.31.50:184][722]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e63700, Size=176, BPHorMovPlat_C_11 Function /Engine/Transient.REINST_BPHorMovPlat_C_109:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.50:185][722]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.50:186][722]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e62a40, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.50:269][722]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a19170340, Size=176
+[2018.07.24-22.31.50:275][722]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1026.79] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 97 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.50:873][756]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.50:881][756]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e62a40, Size=176
+[2018.07.24-22.31.50:881][756]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea5d80, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_113:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.50:882][756]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.50:883][756]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea4f40, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.50:964][756]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e63700, Size=176
+[2018.07.24-22.31.50:970][756]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1027.48] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 96 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.51:584][791]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.51:591][791]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea4f40, Size=176
+[2018.07.24-22.31.51:591][791]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a3e072f80, Size=176, BPHorMovPlat_C_12 Function /Engine/Transient.REINST_BPHorMovPlat_C_117:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.51:592][791]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.51:593][791]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a3e071180, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.51:674][791]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea5d80, Size=176
+[2018.07.24-22.31.51:681][791]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1028.19] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 97 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.52:313][827]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.52:321][827]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a3e071180, Size=176
+[2018.07.24-22.31.52:321][827]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e63a00, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_121:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.52:322][827]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.52:323][827]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e63dc0, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.52:405][827]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a3e072f80, Size=176
+[2018.07.24-22.31.52:410][827]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1028.92] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 97 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.53:391][884]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.53:398][884]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e63dc0, Size=176
+[2018.07.24-22.31.53:398][884]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a3e0713c0, Size=176, BPHorMovPlat_C_13 Function /Engine/Transient.REINST_BPHorMovPlat_C_125:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.53:399][884]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.53:400][884]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a3e0734c0, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.53:482][884]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e63a00, Size=176
+[2018.07.24-22.31.53:489][884]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1030.00] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 97 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.54:419][938]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.54:434][938]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a3e0734c0, Size=176
+[2018.07.24-22.31.54:434][938]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e62980, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_129:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.54:437][938]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.54:439][938]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e62a40, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.54:529][938]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a3e0713c0, Size=176
+[2018.07.24-22.31.54:535][938]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1031.05] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 116 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.55:142][972]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.55:149][972]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e62a40, Size=176
+[2018.07.24-22.31.55:149][972]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a3e071840, Size=176, BPHorMovPlat_C_14 Function /Engine/Transient.REINST_BPHorMovPlat_C_133:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.55:150][972]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.55:150][972]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a3e073400, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.55:234][972]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e62980, Size=176
+[2018.07.24-22.31.55:240][972]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1031.75] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 98 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.55:872][  8]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.55:880][  8]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a3e073400, Size=176
+[2018.07.24-22.31.55:880][  8]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e637c0, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_137:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.55:882][  8]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.55:882][  8]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e625c0, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.55:964][  8]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a3e071840, Size=176
+[2018.07.24-22.31.55:970][  8]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1032.48] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 97 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.56:583][ 43]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.56:591][ 43]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e625c0, Size=176
+[2018.07.24-22.31.56:591][ 43]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a3e073340, Size=176, BPHorMovPlat_C_15 Function /Engine/Transient.REINST_BPHorMovPlat_C_141:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.56:592][ 43]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.56:593][ 43]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a3e071480, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.56:676][ 43]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e637c0, Size=176
+[2018.07.24-22.31.56:683][ 43]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1033.20] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 100 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.57:264][ 76]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.57:271][ 76]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a3e071480, Size=176
+[2018.07.24-22.31.57:271][ 76]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e61b40, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_145:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.57:272][ 76]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.57:273][ 76]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e62800, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.57:354][ 76]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a3e073340, Size=176
+[2018.07.24-22.31.57:361][ 76]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1033.87] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 97 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.58:160][122]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.58:167][122]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e62800, Size=176
+[2018.07.24-22.31.58:167][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a3e071900, Size=176, BPHorMovPlat_C_16 Function /Engine/Transient.REINST_BPHorMovPlat_C_149:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.58:168][122]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.58:169][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a3e073280, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.58:251][122]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e61b40, Size=176
+[2018.07.24-22.31.58:257][122]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1034.77] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 96 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.58:836][155]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.58:844][155]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a3e073280, Size=176
+[2018.07.24-22.31.58:844][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e628c0, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_153:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.58:845][155]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.58:846][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e62c80, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.58:928][155]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a3e071900, Size=176
+[2018.07.24-22.31.58:934][155]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1035.45] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 97 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.31.59:630][195]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.31.59:637][195]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e62c80, Size=176
+[2018.07.24-22.31.59:638][195]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea47c0, Size=176, BPHorMovPlat_C_17 Function /Engine/Transient.REINST_BPHorMovPlat_C_157:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.59:639][195]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.31.59:640][195]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea6d40, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.31.59:723][195]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e628c0, Size=176
+[2018.07.24-22.31.59:728][195]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1036.24] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 98 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.32.00:425][235]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.32.00:432][235]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea6d40, Size=176
+[2018.07.24-22.32.00:432][235]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e625c0, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_161:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.00:433][235]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.32.00:434][235]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e62800, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.00:518][235]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea47c0, Size=176
+[2018.07.24-22.32.00:526][235]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1037.04] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 102 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.32.01:606][298]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.32.01:613][298]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e62800, Size=176
+[2018.07.24-22.32.01:613][298]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a19170280, Size=176, BPHorMovPlat_C_18 Function /Engine/Transient.REINST_BPHorMovPlat_C_165:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.01:615][298]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.32.01:616][298]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a191707c0, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.01:696][298]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e625c0, Size=176
+[2018.07.24-22.32.01:702][298]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1038.21] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 96 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.32.02:776][360]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.32.02:784][360]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a191707c0, Size=176
+[2018.07.24-22.32.02:784][360]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e62c80, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_169:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.02:785][360]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.32.02:786][360]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e63d00, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.02:868][360]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a19170280, Size=176
+[2018.07.24-22.32.02:875][360]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1039.39] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 97 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.32.03:421][391]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.32.03:429][391]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e63d00, Size=176
+[2018.07.24-22.32.03:429][391]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea7580, Size=176, BPHorMovPlat_C_19 Function /Engine/Transient.REINST_BPHorMovPlat_C_173:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.03:430][391]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.32.03:431][391]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea47c0, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.03:510][391]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e62c80, Size=176
+[2018.07.24-22.32.03:516][391]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1040.03] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 95 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.32.04:611][454]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.32.04:619][454]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea47c0, Size=176
+[2018.07.24-22.32.04:619][454]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e63700, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_177:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.04:620][454]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.32.04:621][454]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e62b00, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.04:704][454]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea7580, Size=176
+[2018.07.24-22.32.04:711][454]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1041.22] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 98 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.32.04:807][458]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.32.04:822][458]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e62b00, Size=176
+[2018.07.24-22.32.04:823][458]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea44c0, Size=176, BPHorMovPlat_C_20 Function /Engine/Transient.REINST_BPHorMovPlat_C_181:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.04:824][458]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.32.04:826][458]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea6740, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.04:913][458]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e63700, Size=176
+[2018.07.24-22.32.04:919][458]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1041.43] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 112 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.32.05:014][462]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.32.05:021][462]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea6740, Size=176
+[2018.07.24-22.32.05:021][462]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e63a00, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_185:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.05:022][462]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.32.05:023][462]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e62b00, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.05:107][462]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea44c0, Size=176
+[2018.07.24-22.32.05:114][462]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1041.63] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 99 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.32.05:193][465]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.32.05:201][465]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e62b00, Size=176
+[2018.07.24-22.32.05:201][465]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea65c0, Size=176, BPHorMovPlat_C_21 Function /Engine/Transient.REINST_BPHorMovPlat_C_189:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.05:202][465]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.32.05:203][465]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea4e80, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.05:285][465]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e63a00, Size=176
+[2018.07.24-22.32.05:290][465]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1041.80] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 97 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.32.05:370][468]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.32.05:377][468]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea4e80, Size=176
+[2018.07.24-22.32.05:377][468]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e63d00, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_193:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.05:378][468]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.32.05:379][468]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e625c0, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.05:463][468]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea65c0, Size=176
+[2018.07.24-22.32.05:470][468]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1041.98] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 99 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.32.05:567][472]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.32.05:574][472]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e625c0, Size=176
+[2018.07.24-22.32.05:574][472]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea5cc0, Size=176, BPHorMovPlat_C_22 Function /Engine/Transient.REINST_BPHorMovPlat_C_197:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.05:575][472]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.32.05:576][472]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea50c0, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.05:658][472]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e63d00, Size=176
+[2018.07.24-22.32.05:664][472]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1042.18] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 97 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.32.05:776][477]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.32.05:783][477]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea50c0, Size=176
+[2018.07.24-22.32.05:783][477]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e62800, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_201:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.05:785][477]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.32.05:786][477]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e63a00, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.05:870][477]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea5cc0, Size=176
+[2018.07.24-22.32.05:877][477]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1042.39] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 100 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.32.05:991][482]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.32.05:998][482]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e63a00, Size=176
+[2018.07.24-22.32.05:998][482]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea5d80, Size=176, BPHorMovPlat_C_23 Function /Engine/Transient.REINST_BPHorMovPlat_C_205:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.05:999][482]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.32.05:999][482]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea4100, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.06:083][482]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e62800, Size=176
+[2018.07.24-22.32.06:089][482]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1042.60] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 98 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.32.06:254][490]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.32.06:261][490]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea4100, Size=176
+[2018.07.24-22.32.06:261][490]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e625c0, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_209:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.06:261][490]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.32.06:262][490]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e62b00, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.06:347][490]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea5d80, Size=176
+[2018.07.24-22.32.06:353][490]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1042.87] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 100 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.32.07:301][545]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.32.07:308][545]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e62b00, Size=176
+[2018.07.24-22.32.07:308][545]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea6b00, Size=176, BPHorMovPlat_C_24 Function /Engine/Transient.REINST_BPHorMovPlat_C_213:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.07:309][545]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.32.07:310][545]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a82ea5240, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.07:426][545]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e625c0, Size=176
+[2018.07.24-22.32.07:432][545]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1043.94] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 131 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.32.08:079][582]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.32.08:086][582]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea5240, Size=176
+[2018.07.24-22.32.08:086][582]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e62680, Size=176, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_217:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.08:087][582]LogBlueprint: Error: [Compiler BPHorMovPlat] In use pin  Movement Track  no longer exists on node  Timeline_0 . Please refresh node or break links to remove pin.
+[2018.07.24-22.32.08:088][582]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a13e616c0, Size=176, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.32.08:232][582]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a82ea6b00, Size=176
+[2018.07.24-22.32.08:240][582]LogBlueprint: Warning: [Compiler BPHorMovPlat] [1044.75] Compile of BPHorMovPlat failed. 1 Fatal Issue(s) 0 Warning(s) [in 160 ms] (/Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat)
+[2018.07.24-22.32.12:704][848]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.24-22.32.12:733][848]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.24-22.32.12:733][848]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.24-22.32.18:259][848]LogSlate: Window 'Message' being destroyed
+[2018.07.24-22.32.29:103][493]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.24-22.32.29:121][493]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.24-22.32.29:121][493]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.24-22.32.30:891][493]LogSlate: Window 'Message' being destroyed
+[2018.07.24-22.33.17:642][278]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.33.17:649][278]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e616c0, Size=176
+[2018.07.24-22.33.17:649][278]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a478371c0, Size=176, BPHorMovPlat_C_26 Function /Engine/Transient.REINST_BPHorMovPlat_C_221:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.33.17:651][278]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a47835b40, Size=164, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.33.17:735][278]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a13e62680, Size=176
+[2018.07.24-22.33.37:268][445]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a478371c0, Size=176
+[2018.07.24-22.33.37:626][467]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.24-22.33.37:648][467]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.24-22.33.37:648][467]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.24-22.33.37:649][467]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jul 24, 2018, 2:33:37 PM)
+[2018.07.24-22.33.37:649][467]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.07.24-22.33.37:653][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003754s)
+[2018.07.24-22.33.37:653][467]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.07.24-22.33.37:653][467]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2018.07.24-22.33.37:653][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004527s)
+[2018.07.24-22.33.37:675][467]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.07.24-22.33.37:682][467]LogInit: FAudioDevice initialized.
+[2018.07.24-22.33.37:725][467]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.07.24-22.33.37:727][467]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2018.07.24-18.33.37
+[2018.07.24-22.33.37:728][467]LogWorld: Bringing up level for play took: 0.002557
+[2018.07.24-22.33.37:733][467]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
+[2018.07.24-22.33.37:734][467]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.31
+[2018.07.24-22.33.37:734][467]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.24-22.34.13:198][594]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.24-22.34.13:232][594]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.24-22.34.15:043][700]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.24-22.34.15:218][707]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a7e611680, Size=128
+[2018.07.24-22.34.15:218][707]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a3d70c800, Size=128, Default__2DSideScrollerExampleMap_C Function /Engine/Transient.REINST_2DSideScrollerExampleMap_C_225:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.24-22.34.15:220][707]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a3d70df00, Size=128, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.24-22.34.15:622][707]LogSavePackage: Save=416.68ms
+[2018.07.24-22.34.15:622][707]LogSavePackage: Moving '../../../../GameDev/UnrealProject/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/2DSideScrollerExampleMap58845CEA4EEE19D7E4A36DB08F603C50.tmp' to '../../../../GameDev/UnrealProject/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2018.07.24-22.34.15:627][707]LogSavePackage: Display: Finished SavePackage ../../../../GameDev/UnrealProject/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2018.07.24-22.34.38:525][840]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a3d70c800, Size=128
+[2018.07.24-22.34.42:820][ 92]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a3d70df00, Size=128
+[2018.07.24-22.34.42:821][ 92]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a3eb7ab80, Size=128, Default__2DSideScrollerExampleMap_C Function /Engine/Transient.REINST_2DSideScrollerExampleMap_C_229:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.24-22.34.42:823][ 92]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a3eb78100, Size=128, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.24-22.34.42:950][ 92]LogSavePackage: Save=141.43ms
+[2018.07.24-22.34.42:950][ 92]LogSavePackage: Moving '../../../../GameDev/UnrealProject/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/2DSideScrollerExampleMapAD5A42AF4F21F73282676C9A0BBA83C1.tmp' to '../../../../GameDev/UnrealProject/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2018.07.24-22.34.42:953][ 92]LogSavePackage: Display: Finished SavePackage ../../../../GameDev/UnrealProject/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2018.07.24-22.34.47:313][350]BlueprintLog: New page: Compile BPHorMovPlat
+[2018.07.24-22.34.47:321][350]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a47835b40, Size=164
+[2018.07.24-22.34.47:321][350]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a620c6c80, Size=164, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_233:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.34.47:323][350]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a620c4400, Size=164, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.24-22.34.47:535][350]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a3eb7ab80, Size=128
+[2018.07.24-22.34.48:115][378]LogSavePackage: Save=59.54ms
+[2018.07.24-22.34.48:115][378]LogSavePackage: Moving '../../../../GameDev/UnrealProject/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/BPHorMovPlatC8543FBA4E1CEF7ABD5A7CB92C6F9489.tmp' to '../../../../GameDev/UnrealProject/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BPHorMovPlat.uasset'
+[2018.07.24-22.34.48:117][378]LogSavePackage: Display: Finished SavePackage ../../../../GameDev/UnrealProject/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BPHorMovPlat.uasset
+[2018.07.24-22.34.50:104][496]LogSlate: Window 'BPHorMovPlat' being destroyed
+[2018.07.24-22.34.50:110][496]LogSlate: Window 'BPHorMovPlat' being destroyed
+[2018.07.24-22.34.51:572][580]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.24-22.34.51:694][580]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.24-22.34.51:694][580]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.24-22.34.51:695][580]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jul 24, 2018, 2:34:51 PM)
+[2018.07.24-22.34.51:695][580]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.07.24-22.34.51:708][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012343s)
+[2018.07.24-22.34.51:709][580]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.07.24-22.34.51:710][580]LogPlayLevel: PIE: World Init took: (0.001857s)
+[2018.07.24-22.34.51:710][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.014672s)
+[2018.07.24-22.34.51:748][580]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a620c6c80, Size=164
+[2018.07.24-22.34.51:756][580]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.07.24-22.34.51:762][580]LogInit: FAudioDevice initialized.
+[2018.07.24-22.34.51:796][580]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.07.24-22.34.51:800][580]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2018.07.24-18.34.51
+[2018.07.24-22.34.51:803][580]LogWorld: Bringing up level for play took: 0.004946
+[2018.07.24-22.34.51:804][580]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.38
+[2018.07.24-22.34.51:805][580]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.24-22.34.59:209][ 23]LogCharacterMovement: 2DSideScrollerCharacter_254 is stuck and failed to move! Velocity: X=121.52 Y=0.00 Z=0.00 Location: X=284.83 Y=-13.40 Z=776.53 Normal: X=-0.42 Y=0.00 Z=-0.91 PenetrationDepth:0.970 Actor:BP_RotatingPlatform_4736 Component:Platform BoneName:None (0 other events since notify)
+[2018.07.24-22.35.15:400][994]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.24-22.35.15:435][994]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.24-22.35.16:428][ 52]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.24-22.35.16:591][ 59]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a3eb78100, Size=128
+[2018.07.24-22.35.16:591][ 59]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a3eb78100, Size=128, Default__2DSideScrollerExampleMap_C Function /Engine/Transient.REINST_2DSideScrollerExampleMap_C_237:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.24-22.35.16:594][ 59]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a3eb78b80, Size=128, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.24-22.35.16:719][ 59]LogSavePackage: Save=139.95ms
+[2018.07.24-22.35.16:719][ 59]LogSavePackage: Moving '../../../../GameDev/UnrealProject/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/2DSideScrollerExampleMapD4B2967B4AA7A314103E44B39B4B8BDB.tmp' to '../../../../GameDev/UnrealProject/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2018.07.24-22.35.16:721][ 59]LogSavePackage: Display: Finished SavePackage ../../../../GameDev/UnrealProject/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap

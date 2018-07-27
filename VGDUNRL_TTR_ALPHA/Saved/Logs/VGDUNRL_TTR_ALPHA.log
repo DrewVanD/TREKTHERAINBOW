@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 07/26/18 21:34:09
+=======
+﻿Log file open, 07/27/18 11:37:36
+>>>>>>> 4af8b2d4c11c8a3d99528972ab99dd42c55475e4
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +11,20 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VGDUNRL_TTR_ALPHA
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogInit: Display: RandInit(268620887) SRandInit(268620887).
+=======
+LogInit: Display: RandInit(-698403860) SRandInit(-698403860).
+>>>>>>> 4af8b2d4c11c8a3d99528972ab99dd42c55475e4
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+<<<<<<< HEAD
 LogStats: Stats thread started at 0.283854
+=======
+LogStats: Stats thread started at 0.267710
+>>>>>>> 4af8b2d4c11c8a3d99528972ab99dd42c55475e4
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +180,11 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
+<<<<<<< HEAD
 LogStreaming: Display: Took  0.922s to configure plugins.
+=======
+LogStreaming: Display: Took  1.313s to configure plugins.
+>>>>>>> 4af8b2d4c11c8a3d99528972ab99dd42c55475e4
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -188,7 +204,11 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+<<<<<<< HEAD
 LogInit: WinSock: I am DESKTOP-KBJ6S3T (192.168.1.134:0)
+=======
+LogInit: WinSock: I am DESKTOP-T3RQ42G (192.168.0.21:0)
+>>>>>>> 4af8b2d4c11c8a3d99528972ab99dd42c55475e4
 LogInit: Build: ++UE4+Release-4.19-CL-4033788
 LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -219,6 +239,7 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line: -EpicPortal 
 LogInit: Base Directory: D:/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
+<<<<<<< HEAD
 LogStreaming: Display: Took  0.036s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
@@ -761,3 +782,987 @@ LogInit: Object subsystem initialized
 [2018.07.27-01.36.24:341][ 66]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2018.07.27-01.36.24:359][ 66]LogExit: Exiting.
 [2018.07.27-01.36.24:401][ 66]Log file closed, 07/26/18 21:36:24
+=======
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.07.27-15.37.38:008][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.27-15.37.38:008][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.27-15.37.38:045][  0]LogInit: Computer: DESKTOP-T3RQ42G
+[2018.07.27-15.37.38:045][  0]LogInit: User: Andre
+[2018.07.27-15.37.38:045][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.07.27-15.37.38:045][  0]LogInit: High frequency timer resolution =2.742190 MHz
+[2018.07.27-15.37.38:046][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.07.27-15.37.38:046][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.27-15.37.38:046][  0]LogMemory: Process Physical Memory: 275.20 MB used, 275.20 MB peak
+[2018.07.27-15.37.38:046][  0]LogMemory: Process Virtual Memory: 264.84 MB used, 264.84 MB peak
+[2018.07.27-15.37.38:046][  0]LogMemory: Physical Memory: 6826.93 MB used,  9430.10 MB free, 16257.03 MB total
+[2018.07.27-15.37.38:046][  0]LogMemory: Virtual Memory: 4794.19 MB used,  9430.10 MB free, 134217728.00 MB total
+[2018.07.27-15.37.38:341][  0]LogInit: Using OS detected language (en-US).
+[2018.07.27-15.37.38:341][  0]LogInit: Using OS detected locale (en-CA).
+[2018.07.27-15.37.38:345][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.07.27-15.37.38:788][  0]LogStreaming: Display: Took  0.448s to EndInitTextLocalization.
+[2018.07.27-15.37.38:789][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.27-15.37.38:826][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.27-15.37.38:826][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.27-15.37.39:164][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.27-15.37.39:236][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.07.27-15.37.39:236][  0]LogD3D11RHI:       8081/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.07.27-15.37.39:258][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.07.27-15.37.39:258][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.07.27-15.37.39:261][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.27-15.37.39:261][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.27-15.37.39:261][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.27-15.37.39:273][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.27-15.37.39:273][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.27-15.37.39:273][  0]LogWindows: EnumDisplayDevices:
+[2018.07.27-15.37.39:273][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.07.27-15.37.39:273][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.07.27-15.37.39:274][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.07.27-15.37.39:274][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.07.27-15.37.39:274][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.07.27-15.37.39:274][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.07.27-15.37.39:274][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.07.27-15.37.39:274][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.27-15.37.39:274][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.07.27-15.37.39:274][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.27-15.37.39:274][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.27-15.37.39:274][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2018.07.27-15.37.39:317][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.27-15.37.39:317][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.27-15.37.39:317][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.27-15.37.39:354][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.07.27-15.37.39:401][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Intermediate/Shaders/WorkingDirectory/9232/).
+[2018.07.27-15.37.39:401][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Andre/AppData/Local/Temp/UnrealShaderWorkingDir/3279E1014923BC7BFC3E20A408617761/'.
+[2018.07.27-15.37.39:675][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.27-15.37.39:692][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.27-15.37.39:707][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.27-15.37.39:721][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.27-15.37.39:738][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.27-15.37.39:753][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.27-15.37.39:771][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.27-15.37.39:787][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.27-15.37.39:793][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.27-15.37.39:806][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.27-15.37.39:820][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.27-15.37.39:831][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.27-15.37.39:844][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.07.27-15.37.39:857][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.27-15.37.39:871][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.27-15.37.39:901][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.27-15.37.39:901][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.27-15.37.39:914][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.27-15.37.39:916][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.27-15.37.39:953][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.27-15.37.39:965][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.27-15.37.39:978][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.27-15.37.39:990][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.27-15.37.40:004][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.27-15.37.40:019][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.27-15.37.40:020][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.27-15.37.40:136][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.27-15.37.40:136][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.27-15.37.40:136][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.27-15.37.40:818][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.27-15.37.40:883][  0]LogDerivedDataCache: Loaded boot cache 0.07s 74MB C:/Users/Andre/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.27-15.37.40:883][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Andre/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.07.27-15.37.40:883][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.27-15.37.40:883][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.27-15.37.40:883][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.27-15.37.40:883][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.27-15.37.40:901][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.27-15.37.40:913][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Andre/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.27-15.37.40:913][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.07.27-15.37.40:913][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.07.27-15.37.40:924][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.27-15.37.40:924][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.27-15.37.40:925][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.27-15.37.40:925][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.27-15.37.41:060][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2018.07.27-15.37.41:420][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.27-15.37.41:584][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.27-15.37.41:586][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.27-15.37.41:586][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.27-15.37.41:586][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.27-15.37.41:586][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.27-15.37.41:586][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.27-15.37.41:623][  0]LogNetVersion: VGDUNRL_TTR_ALPHA , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 625581311)
+[2018.07.27-15.37.42:123][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.096462 seconds
+[2018.07.27-15.37.42:128][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.07.27-15.37.42:128][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.07.27-15.37.42:128][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.27-15.37.43:974][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.27-15.37.44:014][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.27-15.37.44:429][  0]SourceControl: Source control is disabled
+[2018.07.27-15.37.44:429][  0]SourceControl: Source control is disabled
+[2018.07.27-15.37.44:454][  0]SourceControl: Source control is disabled
+[2018.07.27-15.37.44:484][  0]SourceControl: Source control is disabled
+[2018.07.27-15.37.45:085][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.27-15.37.45:280][  0]LogOcInput: OculusInput pre-init called
+[2018.07.27-15.37.45:404][  0]LogEngine: Initializing Engine...
+[2018.07.27-15.37.45:405][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.27-15.37.45:407][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.27-15.37.45:407][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.27-15.37.45:642][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.27-15.37.45:653][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.07.27-15.37.45:741][  0]LogInit: FAudioDevice initialized.
+[2018.07.27-15.37.45:826][  0]LogDerivedDataCache: Saved boot cache 0.09s 74MB C:/Users/Andre/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.27-15.37.45:841][  0]LogInit: Texture streaming: Enabled
+[2018.07.27-15.37.45:854][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.27-15.37.45:905][  0]LogInit: Transaction tracking system initialized
+[2018.07.27-15.37.45:925][  0]BlueprintLog: New page: Editor Load
+[2018.07.27-15.37.45:992][  0]LocalizationService: Localization service is disabled
+[2018.07.27-15.37.46:118][  0]LogConsoleResponse: Display: 
+[2018.07.27-15.37.46:342][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.27-15.37.46:342][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.27-15.37.46:342][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.27-15.37.46:342][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.27-15.37.46:342][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.27-15.37.46:775][  0]LogFileCache: Scanning file cache for directory 'D:/UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/' took 0.04s
+[2018.07.27-15.37.46:775][  0]SourceControl: Source control is disabled
+[2018.07.27-15.37.46:775][  0]Cmd: MAP LOAD FILE="../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.27-15.37.46:842][  0]LightingResults: New page: Lighting Build
+[2018.07.27-15.37.46:844][  0]MapCheck: New page: Map Check
+[2018.07.27-15.37.46:844][  0]LightingResults: New page: Lighting Build
+[2018.07.27-15.37.47:246][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b088a45440, Size=288, Default__2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.27-15.37.47:265][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b088a45440, Size=288
+[2018.07.27-15.37.47:265][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b088a45440, Size=288, Default__2DSideScrollerCharacter_C Function /Engine/Transient.REINST_2DSideScrollerCharacter_C_3:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.27-15.37.47:272][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b088a44540, Size=288, Default__2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.27-15.37.47:385][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b08842f4d8, Size=24, Default__2DSideScrollerGameMode_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode.2DSideScrollerGameMode_C:ExecuteUbergraph_2DSideScrollerGameMode
+[2018.07.27-15.37.47:386][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0a39bbd10, Size=16, Default__GameHUD_C Function /Game/2DSideScrollerBP/Blueprints/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD
+[2018.07.27-15.37.47:387][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b088b4a020, Size=32, Default__GameUI_C Function /Game/2DSideScrollerBP/Blueprints/GameUI.GameUI_C:ExecuteUbergraph_GameUI
+[2018.07.27-15.37.47:462][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0a39bbd10, Size=16
+[2018.07.27-15.37.47:462][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0a39bbd10, Size=16, Default__GameHUD_C Function /Engine/Transient.REINST_GameHUD_C_5:ExecuteUbergraph_GameHUD
+[2018.07.27-15.37.47:463][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b08842f4d8, Size=24
+[2018.07.27-15.37.47:463][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b08842f4d8, Size=24, Default__2DSideScrollerGameMode_C Function /Engine/Transient.REINST_2DSideScrollerGameMode_C_6:ExecuteUbergraph_2DSideScrollerGameMode
+[2018.07.27-15.37.47:463][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b088b4a020, Size=32
+[2018.07.27-15.37.47:463][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b08839be00, Size=32, Default__GameUI_C Function /Engine/Transient.REINST_GameUI_C_0:ExecuteUbergraph_GameUI
+[2018.07.27-15.37.47:469][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b088377b60, Size=16, Default__GameHUD_C Function /Game/2DSideScrollerBP/Blueprints/GameHUD.GameHUD_C:ExecuteUbergraph_GameHUD
+[2018.07.27-15.37.47:470][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b08842e8a8, Size=24, Default__2DSideScrollerGameMode_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerGameMode.2DSideScrollerGameMode_C:ExecuteUbergraph_2DSideScrollerGameMode
+[2018.07.27-15.37.47:471][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b088399bc0, Size=32, Default__GameUI_C Function /Game/2DSideScrollerBP/Blueprints/GameUI.GameUI_C:ExecuteUbergraph_GameUI
+[2018.07.27-15.37.47:558][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0883fc340, Size=164, Default__BP_RotatingPlatform_C Function /Game/2DSideScrollerBP/Blueprints/BP_RotatingPlatform.BP_RotatingPlatform_C:ExecuteUbergraph_BP_RotatingPlatform
+[2018.07.27-15.37.47:560][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0883fc340, Size=164
+[2018.07.27-15.37.47:560][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0883fc340, Size=164, Default__BP_RotatingPlatform_C Function /Engine/Transient.REINST_BP_RotatingPlatform_C_12:ExecuteUbergraph_BP_RotatingPlatform
+[2018.07.27-15.37.47:561][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0883fd840, Size=164, Default__BP_RotatingPlatform_C Function /Game/2DSideScrollerBP/Blueprints/BP_RotatingPlatform.BP_RotatingPlatform_C:ExecuteUbergraph_BP_RotatingPlatform
+[2018.07.27-15.37.47:584][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0883fd600, Size=164, Default__BP_VertMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BP_VertMovPlat.BP_VertMovPlat_C:ExecuteUbergraph_BP_VertMovPlat
+[2018.07.27-15.37.47:587][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0883fd600, Size=164
+[2018.07.27-15.37.47:587][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0883fd600, Size=164, Default__BP_VertMovPlat_C Function /Engine/Transient.REINST_BP_VertMovPlat_C_14:ExecuteUbergraph_BP_VertMovPlat
+[2018.07.27-15.37.47:588][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0883fdfc0, Size=164, Default__BP_VertMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BP_VertMovPlat.BP_VertMovPlat_C:ExecuteUbergraph_BP_VertMovPlat
+[2018.07.27-15.37.47:617][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b086621600, Size=164, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.27-15.37.47:620][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b086621600, Size=164
+[2018.07.27-15.37.47:620][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b086621600, Size=164, Default__BPHorMovPlat_C Function /Engine/Transient.REINST_BPHorMovPlat_C_16:ExecuteUbergraph_BPHorMovPlat
+[2018.07.27-15.37.47:622][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b086621e40, Size=164, Default__BPHorMovPlat_C Function /Game/2DSideScrollerBP/Blueprints/BPHorMovPlat.BPHorMovPlat_C:ExecuteUbergraph_BPHorMovPlat
+[2018.07.27-15.37.47:830][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0918bf628, Size=56, Default__Collectables_C Function /Game/2DSideScrollerBP/Blueprints/Collectables.Collectables_C:ExecuteUbergraph_Collectables
+[2018.07.27-15.37.47:833][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0918bf628, Size=56
+[2018.07.27-15.37.47:833][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0918bf628, Size=56, Default__Collectables_C Function /Engine/Transient.REINST_Collectables_C_18:ExecuteUbergraph_Collectables
+[2018.07.27-15.37.47:834][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0918bf238, Size=56, Default__Collectables_C Function /Game/2DSideScrollerBP/Blueprints/Collectables.Collectables_C:ExecuteUbergraph_Collectables
+[2018.07.27-15.37.48:293][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0919d68c0, Size=164, Default__TheCloud_C Function /Game/2DSideScrollerBP/Blueprints/TheCloud.TheCloud_C:ExecuteUbergraph_TheCloud
+[2018.07.27-15.37.48:296][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0919d68c0, Size=164
+[2018.07.27-15.37.48:296][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0919d68c0, Size=164, Default__TheCloud_C Function /Engine/Transient.REINST_TheCloud_C_22:ExecuteUbergraph_TheCloud
+[2018.07.27-15.37.48:298][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0919d6140, Size=164, Default__TheCloud_C Function /Game/2DSideScrollerBP/Blueprints/TheCloud.TheCloud_C:ExecuteUbergraph_TheCloud
+[2018.07.27-15.37.48:494][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b088344480, Size=112, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-15.37.48:497][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b088344480, Size=112
+[2018.07.27-15.37.48:497][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b088344480, Size=112, Default__2DSideScrollerExampleMap_C Function /Engine/Transient.REINST_2DSideScrollerExampleMap_C_24:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-15.37.48:514][  0]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-15.37.48:515][  0]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-15.37.48:527][  0]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-15.37.48:527][  0]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-15.37.48:527][  0]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-15.37.48:527][  0]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-15.37.48:528][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b08840a320, Size=112, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-15.37.48:528][  0]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] [0013.95] Compile of PersistentLevel.2DSideScrollerExampleMap failed. 2 Fatal Issue(s) 4 Warning(s) [in 31 ms] (/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap)
+[2018.07.27-15.37.48:780][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.07.27-15.37.48:853][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.27-15.37.48:869][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b088a45440, Size=288
+[2018.07.27-15.37.48:869][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b08842f4d8, Size=24
+[2018.07.27-15.37.48:869][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0a39bbd10, Size=16
+[2018.07.27-15.37.48:869][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b08839be00, Size=32
+[2018.07.27-15.37.48:870][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0883fc340, Size=164
+[2018.07.27-15.37.48:870][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0883fd600, Size=164
+[2018.07.27-15.37.48:870][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b086621600, Size=164
+[2018.07.27-15.37.48:870][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0918bf628, Size=56
+[2018.07.27-15.37.48:870][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0919d68c0, Size=164
+[2018.07.27-15.37.48:870][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b088344480, Size=112
+[2018.07.27-15.37.48:871][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.27-15.37.48:942][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 72.291ms to complete.
+[2018.07.27-15.37.48:942][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 2.168
+[2018.07.27-15.37.49:407][  0]LogCollectionManager: Loaded 0 collections in 0.001044 seconds
+[2018.07.27-15.37.49:499][  0]LogFileCache: Scanning file cache for directory 'D:/UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/Collections/' took 0.01s
+[2018.07.27-15.37.49:499][  0]LogFileCache: Scanning file cache for directory 'D:/UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/Developers/Andre/Collections/' took 0.01s
+[2018.07.27-15.37.49:499][  0]LogFileCache: Scanning file cache for directory 'D:/UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/Collections/' took 0.01s
+[2018.07.27-15.37.49:499][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.07.27-15.37.49:508][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2452 classes and 558 folders.
+[2018.07.27-15.37.49:548][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.07.27-15.37.50:315][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.27-15.37.50:344][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.07.27-15.37.51:099][  0]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.27-15.37.51:101][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.27-15.37.51:151][  0]LogSlate: Took 0.022466 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.27-15.37.51:427][  0]LogRenderer: Reallocating scene render targets to support 864x488 Format 10 NumSamples 1 (Frame:1).
+[2018.07.27-15.37.51:698][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.27-15.37.51:698][  0]LogLoad: (Engine Initialization) Total time: 17.12 seconds
+[2018.07.27-15.37.51:698][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.27-15.37.52:097][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.27-15.37.52:397][  1]LogAssetRegistry: Asset discovery search completed in 11.3592 seconds
+[2018.07.27-15.37.52:399][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.07.27-15.37.52:399][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000043 seconds (updated 0 objects)
+[2018.07.27-15.38.36:484][654]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2018.07.27-15.38.37:631][691]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2018.07.27-15.38.38:357][733]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2018.07.27-15.38.46:470][201]LogEditorViewport: Clicking on Actor (LMB): BP_Collectable_C (BP_Collectable)
+[2018.07.27-15.39.03:532][164]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-15.39.15:100][777]LogSlate: Took 0.011724 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.27-15.39.41:990][304]LogEditorActor: Deleted Actor: BP_Collectable_C
+[2018.07.27-15.39.42:034][304]LogEditorActor: Deleted 1 Actors (0.125 secs)
+[2018.07.27-15.39.46:953][578]LogEditorViewport: Clicking Background
+[2018.07.27-15.39.49:540][726]LogEditorViewport: Clicking on Actor (LMB): TheCloud_C (TheCloud)
+[2018.07.27-15.39.51:898][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-15.47.43:454][376]LogSlate: Took 0.018552 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.27-15.47.52:410][403]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b08840a320, Size=112
+[2018.07.27-15.47.52:410][403]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0b3737200, Size=112, Default__2DSideScrollerExampleMap_C Function /Engine/Transient.REINST_2DSideScrollerExampleMap_C_28:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-15.47.52:412][403]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-15.47.52:412][403]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-15.47.52:412][403]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-15.47.52:412][403]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-15.47.52:413][403]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-15.47.52:413][403]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-15.47.52:413][403]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0b37f6b70, Size=112, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-15.47.52:414][403]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] [0617.83] Compile of PersistentLevel.2DSideScrollerExampleMap failed. 2 Fatal Issue(s) 4 Warning(s) [in 26 ms] (/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap)
+[2018.07.27-15.47.52:597][403]LogSavePackage: Save=216.37ms
+[2018.07.27-15.47.52:597][403]LogSavePackage: Moving '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/2DSideScrollerExampleMap_Auto1E148C014435567021F7C02A625858373.tmp' to '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap'
+[2018.07.27-15.47.52:612][403]LogSavePackage: Display: Finished SavePackage ../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap
+[2018.07.27-15.47.52:632][403]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.407
+[2018.07.27-15.47.52:632][403]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.407
+[2018.07.27-15.56.59:711][594]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2018.07.27-15.57.33:422][470]LogCascade: Non-seeded module ParticleModuleColorOverLife
+[2018.07.27-15.57.33:438][470]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-15.57.39:058][764]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-15.59.13:234][ 11]LogSlate: Window 'Color Picker' being destroyed
+[2018.07.27-15.59.15:849][136]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-15.59.25:821][689]LogSlate: Window 'Color Picker' being destroyed
+[2018.07.27-15.59.28:181][794]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-15.59.35:889][234]LogSlate: Window 'Color Picker' being destroyed
+[2018.07.27-15.59.51:794][134]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.00.00:810][632]LogSlate: Window 'Color Picker' being destroyed
+[2018.07.27-16.00.03:703][765]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.00.12:986][278]LogSlate: Window 'Color Picker' being destroyed
+[2018.07.27-16.00.18:337][544]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.00.25:166][922]LogSlate: Window 'Color Picker' being destroyed
+[2018.07.27-16.00.28:294][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.00.35:562][485]LogSlate: Window 'Color Picker' being destroyed
+[2018.07.27-16.00.38:407][620]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.00.47:823][139]LogSlate: Window 'Color Picker' being destroyed
+[2018.07.27-16.00.55:419][526]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.01.25:403][212]LogSlate: Window 'Color Picker' being destroyed
+[2018.07.27-16.02.08:604][144]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0b3737200, Size=112
+[2018.07.27-16.02.08:605][144]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.043
+[2018.07.27-16.02.08:607][144]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScroller/Materials/Portal/Portal/portal_out] ([1] browsable assets)...
+[2018.07.27-16.02.08:623][144]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/2DSideScroller/Materials/Portal/Portal/portal_out.portal_out]
+[2018.07.27-16.02.08:623][144]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScroller/Materials/Portal/Portal/portal_out]
+[2018.07.27-16.02.08:676][144]LogSavePackage: Save=38.56ms
+[2018.07.27-16.02.08:676][144]LogSavePackage: Moving '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/portal_out_Auto2C06956B24D9DA4411FD1B5A1CE0C7E53.tmp' to '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/Autosaves/Game/2DSideScroller/Materials/Portal/Portal/portal_out_Auto2.uasset'
+[2018.07.27-16.02.08:678][144]LogSavePackage: Display: Finished SavePackage ../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/Autosaves/Game/2DSideScroller/Materials/Portal/Portal/portal_out_Auto2.uasset
+[2018.07.27-16.02.08:678][144]LogFileHelpers: Auto-saving content packages took 0.072
+[2018.07.27-16.03.51:902][725]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.03.53:580][789]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0b42f1f30, Size=56, Default__BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.03.53:582][789]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0b42f1f30, Size=56
+[2018.07.27-16.03.53:582][789]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0b42f1f30, Size=56, Default__BP_Teleporter_2_C Function /Engine/Transient.REINST_BP_Teleporter_2_C_32:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.03.53:584][789]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0b42f2160, Size=56, Default__BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.03.54:179][789]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.07.27-16.03.54:569][789]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0dbf964d0, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.27-16.03.54:570][789]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0dbf964c8, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.27-16.03.55:471][789]LogSlate: Took 0.016191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.27-16.04.00:719][ 54]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.04.05:016][243]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.04.10:132][481]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.04.12:473][606]LogEditorViewport: Clicking on Actor (LMB): BP_Teleporter_2_C (BP_Teleporter_2)
+[2018.07.27-16.04.13:854][663]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.04.23:963][198]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.06.16:687][478]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0d8e03050, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.SKEL_BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.06.19:756][595]LogSlate: Took 0.044523 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.07.27-16.06.30:544][187]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0d8e03050, Size=4
+[2018.07.27-16.06.30:544][187]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0d8e03050, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Engine/Transient.REINST_SKEL_BP_Teleporter_2_C_48:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.06.30:545][187]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0d8e004a8, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.SKEL_BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.06.33:030][322]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0d8e004a8, Size=4
+[2018.07.27-16.06.33:030][322]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b100f7b790, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Engine/Transient.REINST_SKEL_BP_Teleporter_2_C_50:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.06.33:031][322]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b100f78ea0, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.SKEL_BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.06.42:303][803]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b100f78ea0, Size=4
+[2018.07.27-16.06.42:303][803]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10d93ce08, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Engine/Transient.REINST_SKEL_BP_Teleporter_2_C_52:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.06.42:305][803]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10d93e318, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.SKEL_BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.06.44:893][922]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10d93e318, Size=4
+[2018.07.27-16.06.44:893][922]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10d93e318, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Engine/Transient.REINST_SKEL_BP_Teleporter_2_C_54:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.06.44:894][922]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10d93c638, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.SKEL_BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.07.59:089][641]BlueprintLog: New page: Compile BP_Teleporter_2
+[2018.07.27-16.07.59:093][641]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10d93c638, Size=4
+[2018.07.27-16.07.59:093][641]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b11132fce0, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Engine/Transient.REINST_SKEL_BP_Teleporter_2_C_56:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.07.59:098][641]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0b42f2160, Size=56
+[2018.07.27-16.07.59:098][641]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b11181b008, Size=56, BP_Teleporter_2_C_22 Function /Engine/Transient.REINST_BP_Teleporter_2_C_58:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.07.59:100][641]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b11181b468, Size=56, Default__BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.07.59:500][641]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0b42f1f30, Size=56
+[2018.07.27-16.07.59:501][641]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0d8e03050, Size=4
+[2018.07.27-16.07.59:501][641]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b100f7b790, Size=4
+[2018.07.27-16.07.59:501][641]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10d93ce08, Size=4
+[2018.07.27-16.07.59:501][641]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10d93e318, Size=4
+[2018.07.27-16.07.59:501][641]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b11132fce0, Size=4
+[2018.07.27-16.08.29:388][148]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.27-16.08.29:409][148]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.08.29:409][148]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.07.27-16.08.29:415][148]LogPlayLevel: [PlayLevel] Compiling 2DSideScrollerExampleMap before play...
+[2018.07.27-16.08.29:420][148]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0b37f6b70, Size=112
+[2018.07.27-16.08.29:420][148]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b110fb09c0, Size=112, Default__2DSideScrollerExampleMap_C Function /Engine/Transient.REINST_2DSideScrollerExampleMap_C_62:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.08.29:421][148]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.08.29:421][148]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.08.29:422][148]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.08.29:422][148]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.08.29:422][148]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.08.29:422][148]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.08.29:423][148]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b1109e9670, Size=112, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.08.29:423][148]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] [1854.84] Compile of PersistentLevel.2DSideScrollerExampleMap failed. 2 Fatal Issue(s) 4 Warning(s) [in 8 ms] (/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap)
+[2018.07.27-16.08.29:512][148]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b11181b008, Size=56
+[2018.07.27-16.08.29:513][148]LogPlayLevel: PlayLevel: Blueprint regeneration took 103 ms (1 blueprints)
+[2018.07.27-16.08.29:513][148]BlueprintLog: Blueprint 2DSideScrollerExampleMap failed to compile
+[2018.07.27-16.08.32:843][148]LogSlate: Window 'Message' being destroyed
+[2018.07.27-16.08.32:905][148]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jul 27, 2018, 8:08:32 AM)
+[2018.07.27-16.08.32:905][148]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.07.27-16.08.32:909][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004065s)
+[2018.07.27-16.08.32:910][148]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.07.27-16.08.32:910][148]LogPlayLevel: PIE: World Init took: (0.000632s)
+[2018.07.27-16.08.32:910][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004827s)
+[2018.07.27-16.08.32:944][148]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.07.27-16.08.33:021][148]LogInit: FAudioDevice initialized.
+[2018.07.27-16.08.33:072][148]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.07.27-16.08.33:079][148]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2018.07.27-12.08.33
+[2018.07.27-16.08.33:088][148]LogWorld: Bringing up level for play took: 0.015148
+[2018.07.27-16.08.33:125][148]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2018.07.27-16.08.33:155][148]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 3.57
+[2018.07.27-16.08.33:155][148]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.08.39:229][498]LogScript: Warning: Accessed None trying to read property OtherPortal
+	BP_Teleporter_2_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Teleporter_240
+	Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2:0116
+[2018.07.27-16.08.39:229][498]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property OtherPortal from function: 'ExecuteUbergraph_BP_Teleporter_2' from node: Teleport in graph: EventGraph in object: BP_Teleporter_2 with description: Accessed None trying to read property OtherPortal
+[2018.07.27-16.08.44:793][830]LogScript: Warning: Accessed None trying to read property OtherPortal
+	BP_Teleporter_2_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Teleporter_501
+	Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2:0116
+[2018.07.27-16.08.44:793][830]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property OtherPortal from function: 'ExecuteUbergraph_BP_Teleporter_2' from node: Teleport in graph: EventGraph in object: BP_Teleporter_2 with description: Accessed None trying to read property OtherPortal
+[2018.07.27-16.08.47:877][ 15]LogScript: Warning: Accessed None trying to read property OtherPortal
+	BP_Teleporter_2_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Teleporter_240
+	Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2:0116
+[2018.07.27-16.08.47:877][ 15]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property OtherPortal from function: 'ExecuteUbergraph_BP_Teleporter_2' from node: Teleport in graph: EventGraph in object: BP_Teleporter_2 with description: Accessed None trying to read property OtherPortal
+[2018.07.27-16.08.50:808][185]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.08.50:844][185]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.08.53:100][266]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.08.56:789][435]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.27-16.08.56:809][435]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.08.56:809][435]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.07.27-16.08.56:815][435]LogPlayLevel: [PlayLevel] Compiling 2DSideScrollerExampleMap before play...
+[2018.07.27-16.08.56:820][435]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b1109e9670, Size=112
+[2018.07.27-16.08.56:821][435]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0d85b4c60, Size=112, 2DSideScrollerExampleMap_C_0 Function /Engine/Transient.REINST_2DSideScrollerExampleMap_C_66:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.08.56:822][435]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.08.56:822][435]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.08.56:822][435]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.08.56:823][435]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.08.56:823][435]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.08.56:823][435]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.08.56:823][435]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0b70919f0, Size=112, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.08.56:824][435]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] [1882.25] Compile of PersistentLevel.2DSideScrollerExampleMap failed. 2 Fatal Issue(s) 4 Warning(s) [in 8 ms] (/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap)
+[2018.07.27-16.08.56:913][435]LogPlayLevel: PlayLevel: Blueprint regeneration took 104 ms (1 blueprints)
+[2018.07.27-16.08.56:913][435]BlueprintLog: Blueprint 2DSideScrollerExampleMap failed to compile
+[2018.07.27-16.08.58:160][435]LogSlate: Window 'Message' being destroyed
+[2018.07.27-16.08.58:170][435]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jul 27, 2018, 8:08:58 AM)
+[2018.07.27-16.08.58:170][435]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.07.27-16.08.58:176][435]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005905s)
+[2018.07.27-16.08.58:176][435]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.07.27-16.08.58:177][435]LogPlayLevel: PIE: World Init took: (0.000655s)
+[2018.07.27-16.08.58:177][435]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.006717s)
+[2018.07.27-16.08.58:202][435]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.07.27-16.08.58:278][435]LogInit: FAudioDevice initialized.
+[2018.07.27-16.08.58:309][435]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.07.27-16.08.58:310][435]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2018.07.27-12.08.58
+[2018.07.27-16.08.58:311][435]LogWorld: Bringing up level for play took: 0.001518
+[2018.07.27-16.08.58:312][435]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.727
+[2018.07.27-16.08.58:313][435]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.14.03:623][741]LogScript: Warning: Accessed None trying to read property OtherPortal
+	BP_Teleporter_2_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Teleporter_240
+	Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2:0116
+[2018.07.27-16.14.03:623][741]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property OtherPortal from function: 'ExecuteUbergraph_BP_Teleporter_2' from node: Teleport in graph: EventGraph in object: BP_Teleporter_2 with description: Accessed None trying to read property OtherPortal
+[2018.07.27-16.14.26:827][129]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.14.26:864][129]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.14.28:695][227]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.15.08:266][175]LogSlate: Window 'Change Variable Type' being destroyed
+[2018.07.27-16.15.08:277][175]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0d8e00f80, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.SKEL_BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.15.08:301][175]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.15.11:849][299]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.07.27-16.15.11:857][299]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.07.27-16.15.12:776][347]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.15.12:856][352]LogSlate: Window 'Message Log' being destroyed
+[2018.07.27-16.15.12:865][352]LogSlate: Window 'Message Log' being destroyed
+[2018.07.27-16.15.14:576][422]LogEditorViewport: Clicking Background
+[2018.07.27-16.15.15:782][487]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.15.19:863][688]LogEditorViewport: Clicking on Actor (LMB): BP_Teleporter_2_C (BP_Teleporter_3)
+[2018.07.27-16.15.21:538][759]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.15.24:016][873]LogEditorViewport: Clicking on Actor (LMB): BP_Teleporter_2_C (BP_Teleporter_2)
+[2018.07.27-16.15.27:058][  1]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.15.28:454][ 55]BlueprintLog: New page: Compile BP_Teleporter_2
+[2018.07.27-16.15.28:459][ 55]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0d8e00f80, Size=4
+[2018.07.27-16.15.28:459][ 55]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0d8e00f80, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Engine/Transient.REINST_SKEL_BP_Teleporter_2_C_70:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.15.28:464][ 55]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b11181b468, Size=56
+[2018.07.27-16.15.28:464][ 55]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10de856a8, Size=56, Default__BP_Teleporter_2_C Function /Engine/Transient.REINST_BP_Teleporter_2_C_72:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.15.28:465][ 55]LogBlueprint: Error: [Compiler BP_Teleporter_2] In use pin  Other Portal  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2018.07.27-16.15.28:466][ 55]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10de86390, Size=56, Default__BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.15.28:564][ 55]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0d8e00f80, Size=4
+[2018.07.27-16.15.28:572][ 55]LogBlueprint: Warning: [Compiler BP_Teleporter_2] [2273.99] Compile of BP_Teleporter_2 failed. 1 Fatal Issue(s) 0 Warning(s) [in 118 ms] (/Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.BP_Teleporter_2)
+[2018.07.27-16.15.42:194][676]BlueprintLog: New page: Compile BP_Teleporter_2
+[2018.07.27-16.15.42:204][676]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10de86390, Size=56
+[2018.07.27-16.15.42:204][676]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10de86390, Size=56, BP_Teleporter_2_C_37 Function /Engine/Transient.REINST_BP_Teleporter_2_C_76:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.15.42:206][676]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10de87820, Size=56, Default__BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.15.42:302][676]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10de856a8, Size=56
+[2018.07.27-16.15.43:061][706]LogSavePackage: Save=28.45ms
+[2018.07.27-16.15.43:061][706]LogSavePackage: Moving '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/BP_Teleporter_20EA453EA42FC3EE8C16937BA8C2005D3.tmp' to '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BP_Teleporter_2.uasset'
+[2018.07.27-16.15.43:080][706]LogSavePackage: Display: Finished SavePackage ../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BP_Teleporter_2.uasset
+[2018.07.27-16.16.00:308][481]LogEditorViewport: Clicking on Actor (LMB): BP_Teleporter_2_C (BP_Teleporter_3)
+[2018.07.27-16.18.00:989][ 66]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10de86390, Size=56
+[2018.07.27-16.18.01:014][ 66]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0b70919f0, Size=112
+[2018.07.27-16.18.01:014][ 66]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b110fb27f0, Size=112, 2DSideScrollerExampleMap_C_1 Function /Engine/Transient.REINST_2DSideScrollerExampleMap_C_80:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.18.01:016][ 66]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.18.01:016][ 66]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.18.01:016][ 66]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.18.01:016][ 66]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.18.01:017][ 66]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.18.01:017][ 66]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.18.01:017][ 66]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10d2fa1d0, Size=112, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.18.01:018][ 66]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] [2426.44] Compile of PersistentLevel.2DSideScrollerExampleMap failed. 2 Fatal Issue(s) 4 Warning(s) [in 9 ms] (/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap)
+[2018.07.27-16.18.01:149][ 66]LogSavePackage: Save=146.10ms
+[2018.07.27-16.18.01:149][ 66]LogSavePackage: Moving '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/2DSideScrollerExampleMap_Auto330E1F43344180ACDEA6B6A9191E43A20.tmp' to '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto3.umap'
+[2018.07.27-16.18.01:151][ 66]LogSavePackage: Display: Finished SavePackage ../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto3.umap
+[2018.07.27-16.18.01:153][ 66]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.186
+[2018.07.27-16.18.01:153][ 66]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.186
+[2018.07.27-16.19.20:598][305]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.19.22:416][373]LogEditorViewport: Clicking on Actor (LMB): BP_Teleporter_2_C (BP_Teleporter_2)
+[2018.07.27-16.19.24:034][447]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.19.26:334][570]LogEditorViewport: Clicking on Actor (LMB): BP_Teleporter_2_C (BP_Teleporter_3)
+[2018.07.27-16.19.27:364][613]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.19.29:572][716]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.19.29:606][718]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.27-16.19.29:629][718]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.19.29:629][718]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.07.27-16.19.29:635][718]LogPlayLevel: [PlayLevel] Compiling 2DSideScrollerExampleMap before play...
+[2018.07.27-16.19.29:640][718]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10d2fa1d0, Size=112
+[2018.07.27-16.19.29:640][718]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10d80efd0, Size=112, 2DSideScrollerExampleMap_C_2 Function /Engine/Transient.REINST_2DSideScrollerExampleMap_C_84:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.19.29:641][718]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.19.29:641][718]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.19.29:642][718]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.19.29:642][718]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.19.29:642][718]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.19.29:642][718]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.19.29:642][718]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b1112dc250, Size=112, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.19.29:643][718]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] [2515.06] Compile of PersistentLevel.2DSideScrollerExampleMap failed. 2 Fatal Issue(s) 4 Warning(s) [in 8 ms] (/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap)
+[2018.07.27-16.19.29:733][718]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10d80efd0, Size=112
+[2018.07.27-16.19.29:733][718]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b110fb27f0, Size=112
+[2018.07.27-16.19.29:734][718]LogPlayLevel: PlayLevel: Blueprint regeneration took 104 ms (1 blueprints)
+[2018.07.27-16.19.29:734][718]BlueprintLog: Blueprint 2DSideScrollerExampleMap failed to compile
+[2018.07.27-16.19.31:070][718]LogSlate: Window 'Message' being destroyed
+[2018.07.27-16.19.31:077][718]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jul 27, 2018, 8:19:31 AM)
+[2018.07.27-16.19.31:077][718]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.07.27-16.19.31:081][718]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004379s)
+[2018.07.27-16.19.31:082][718]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.07.27-16.19.31:082][718]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2018.07.27-16.19.31:082][718]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.005480s)
+[2018.07.27-16.19.31:109][718]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.07.27-16.19.31:187][718]LogInit: FAudioDevice initialized.
+[2018.07.27-16.19.31:187][718]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.19.31:220][718]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.07.27-16.19.31:223][718]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2018.07.27-12.19.31
+[2018.07.27-16.19.31:223][718]LogWorld: Bringing up level for play took: 0.001599
+[2018.07.27-16.19.31:225][718]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 1.64
+[2018.07.27-16.19.31:225][718]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.19.38:389][137]LogScript: Warning: Accessed None trying to read property OtherPortal
+	BP_Teleporter_2_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Teleporter_240
+	Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2:0116
+[2018.07.27-16.19.38:390][137]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property OtherPortal from function: 'ExecuteUbergraph_BP_Teleporter_2' from node: Teleport in graph: EventGraph in object: BP_Teleporter_2 with description: Accessed None trying to read property OtherPortal
+[2018.07.27-16.19.40:942][287]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.19.40:980][287]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.19.42:606][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.19.42:709][342]LogSavePackage: Save=19.83ms
+[2018.07.27-16.19.42:709][342]LogSavePackage: Moving '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/BP_Teleporter_2041C74394F93F672CAF8A2A59BA3B7B0.tmp' to '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BP_Teleporter_2.uasset'
+[2018.07.27-16.19.42:710][342]LogSavePackage: Display: Finished SavePackage ../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BP_Teleporter_2.uasset
+[2018.07.27-16.19.48:642][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.19.59:101][176]LogSlate: Window 'Message Log' being destroyed
+[2018.07.27-16.19.59:109][176]LogSlate: Window 'Message Log' being destroyed
+[2018.07.27-16.20.05:643][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.20.12:787][799]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0d8e003f8, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.SKEL_BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.20.17:495][ 29]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.27-16.20.17:515][ 29]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.20.17:515][ 29]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.07.27-16.20.17:518][ 29]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0d8e003f8, Size=4
+[2018.07.27-16.20.17:518][ 29]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0d8e003f8, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Engine/Transient.REINST_SKEL_BP_Teleporter_2_C_88:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.20.17:518][ 29]LogPlayLevel: [PlayLevel] Compiling BP_Teleporter_2 before play...
+[2018.07.27-16.20.17:523][ 29]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10de87820, Size=56
+[2018.07.27-16.20.17:523][ 29]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10de87820, Size=56, Default__BP_Teleporter_2_C Function /Engine/Transient.REINST_BP_Teleporter_2_C_90:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.20.17:524][ 29]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10de86a58, Size=56, Default__BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.20.17:882][ 29]LogPlayLevel: [PlayLevel] Compiling 2DSideScrollerExampleMap before play...
+[2018.07.27-16.20.17:887][ 29]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b1112dc250, Size=112
+[2018.07.27-16.20.17:887][ 29]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b1112dc250, Size=112, 2DSideScrollerExampleMap_C_3 Function /Engine/Transient.REINST_2DSideScrollerExampleMap_C_94:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.20.17:888][ 29]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.20.17:889][ 29]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.20.17:889][ 29]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.20.17:889][ 29]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.20.17:890][ 29]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.20.17:890][ 29]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.20.17:890][ 29]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b111c76710, Size=112, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.20.17:890][ 29]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] [2563.31] Compile of PersistentLevel.2DSideScrollerExampleMap failed. 2 Fatal Issue(s) 4 Warning(s) [in 8 ms] (/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap)
+[2018.07.27-16.20.17:979][ 29]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b1112dc250, Size=112
+[2018.07.27-16.20.17:979][ 29]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10de87820, Size=56
+[2018.07.27-16.20.17:979][ 29]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0d8e003f8, Size=4
+[2018.07.27-16.20.17:981][ 29]LogPlayLevel: PlayLevel: Blueprint regeneration took 465 ms (2 blueprints)
+[2018.07.27-16.20.17:981][ 29]BlueprintLog: Blueprint 2DSideScrollerExampleMap failed to compile
+[2018.07.27-16.20.19:100][ 29]LogSlate: Window 'Message' being destroyed
+[2018.07.27-16.20.20:897][103]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.20.40:194][ 53]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.27-16.20.40:220][ 53]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.20.40:220][ 53]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.07.27-16.20.40:224][ 53]LogPlayLevel: [PlayLevel] Compiling BP_Teleporter_2 before play...
+[2018.07.27-16.20.40:227][ 53]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10de86a58, Size=56
+[2018.07.27-16.20.40:227][ 53]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10de30218, Size=56, Default__BP_Teleporter_2_C Function /Engine/Transient.REINST_BP_Teleporter_2_C_98:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.20.40:229][ 53]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10de31328, Size=56, Default__BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.20.40:657][ 53]LogPlayLevel: [PlayLevel] Compiling 2DSideScrollerExampleMap before play...
+[2018.07.27-16.20.40:663][ 53]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b111c76710, Size=112
+[2018.07.27-16.20.40:663][ 53]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0d85b6b00, Size=112, 2DSideScrollerExampleMap_C_4 Function /Engine/Transient.REINST_2DSideScrollerExampleMap_C_102:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.20.40:664][ 53]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.20.40:664][ 53]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.20.40:665][ 53]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.20.40:665][ 53]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.20.40:665][ 53]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.20.40:665][ 53]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.20.40:665][ 53]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0c00c12f0, Size=112, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.20.40:666][ 53]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] [2586.09] Compile of PersistentLevel.2DSideScrollerExampleMap failed. 2 Fatal Issue(s) 4 Warning(s) [in 8 ms] (/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap)
+[2018.07.27-16.20.40:755][ 53]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0d85b6b00, Size=112
+[2018.07.27-16.20.40:755][ 53]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10de30218, Size=56
+[2018.07.27-16.20.40:756][ 53]LogPlayLevel: PlayLevel: Blueprint regeneration took 535 ms (2 blueprints)
+[2018.07.27-16.20.40:756][ 53]BlueprintLog: Blueprint 2DSideScrollerExampleMap failed to compile
+[2018.07.27-16.20.43:506][ 53]LogSlate: Window 'Message' being destroyed
+[2018.07.27-16.20.43:514][ 53]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jul 27, 2018, 8:20:43 AM)
+[2018.07.27-16.20.43:514][ 53]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.07.27-16.20.43:518][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004691s)
+[2018.07.27-16.20.43:519][ 53]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.07.27-16.20.43:519][ 53]LogPlayLevel: PIE: World Init took: (0.000721s)
+[2018.07.27-16.20.43:519][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.005675s)
+[2018.07.27-16.20.43:545][ 53]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.07.27-16.20.43:619][ 53]LogInit: FAudioDevice initialized.
+[2018.07.27-16.20.43:620][ 53]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.20.43:651][ 53]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.07.27-16.20.43:653][ 53]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2018.07.27-12.20.43
+[2018.07.27-16.20.43:654][ 53]LogWorld: Bringing up level for play took: 0.001943
+[2018.07.27-16.20.43:655][ 53]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 4.071
+[2018.07.27-16.20.43:655][ 53]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.20.50:181][433]LogScript: Warning: Accessed None trying to read property OtherPortal
+	BP_Teleporter_2_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Teleporter_240
+	Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2:00AF
+[2018.07.27-16.20.50:181][433]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property OtherPortal from function: 'ExecuteUbergraph_BP_Teleporter_2' from node: Teleport in graph: EventGraph in object: BP_Teleporter_2 with description: Accessed None trying to read property OtherPortal
+[2018.07.27-16.20.56:449][809]LogScript: Warning: Accessed None trying to read property OtherPortal
+	BP_Teleporter_2_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.BP_Teleporter_501
+	Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2:00AF
+[2018.07.27-16.20.56:449][809]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property OtherPortal from function: 'ExecuteUbergraph_BP_Teleporter_2' from node: Teleport in graph: EventGraph in object: BP_Teleporter_2 with description: Accessed None trying to read property OtherPortal
+[2018.07.27-16.20.58:150][911]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.20.58:187][911]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.21.00:782][ 40]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.21.19:150][ 13]LogSlate: Window 'Message Log' being destroyed
+[2018.07.27-16.21.19:160][ 13]LogSlate: Window 'Message Log' being destroyed
+[2018.07.27-16.21.20:105][ 55]LogEditorViewport: Clicking on Actor (LMB): BP_Teleporter_2_C (BP_Teleporter_3)
+[2018.07.27-16.21.22:334][166]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.21.29:489][545]LogEditorViewport: Clicking on Actor (LMB): BP_Teleporter_2_C (BP_Teleporter_2)
+[2018.07.27-16.21.30:321][581]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.21.34:676][823]LogEditorViewport: Clicking on Actor (LMB): BP_Teleporter_2_C (BP_Teleporter_3)
+[2018.07.27-16.21.35:668][872]LogEditorViewport: Clicking on Actor (LMB): BP_Teleporter_2_C (BP_Teleporter_2)
+[2018.07.27-16.21.36:547][901]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.21.36:947][905]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0c00c12f0, Size=112
+[2018.07.27-16.21.36:947][905]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0d8bb34a0, Size=112, 2DSideScrollerExampleMap_C_5 Function /Engine/Transient.REINST_2DSideScrollerExampleMap_C_106:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.21.36:948][905]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.21.36:949][905]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.21.36:949][905]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.21.36:949][905]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.21.36:949][905]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.21.36:949][905]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.21.36:950][905]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0c99d1210, Size=112, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.21.36:950][905]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] [2642.37] Compile of PersistentLevel.2DSideScrollerExampleMap failed. 2 Fatal Issue(s) 4 Warning(s) [in 9 ms] (/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap)
+[2018.07.27-16.21.37:086][905]LogSavePackage: Save=150.64ms
+[2018.07.27-16.21.37:086][905]LogSavePackage: Moving '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/2DSideScrollerExampleMap7C7FB9A54FF14829077C919BE40BBFFE.tmp' to '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2018.07.27-16.21.37:093][905]LogSavePackage: Display: Finished SavePackage ../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2018.07.27-16.21.37:995][934]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.21.38:060][938]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.27-16.21.38:082][938]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.21.38:083][938]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.07.27-16.21.38:088][938]LogPlayLevel: [PlayLevel] Compiling 2DSideScrollerExampleMap before play...
+[2018.07.27-16.21.38:094][938]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0c99d1210, Size=112
+[2018.07.27-16.21.38:094][938]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0c3c34100, Size=112, 2DSideScrollerExampleMap_C_6 Function /Engine/Transient.REINST_2DSideScrollerExampleMap_C_110:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.21.38:095][938]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.21.38:095][938]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.21.38:096][938]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.21.38:096][938]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.21.38:096][938]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.21.38:096][938]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.21.38:096][938]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b1109e8410, Size=112, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.21.38:097][938]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] [2643.52] Compile of PersistentLevel.2DSideScrollerExampleMap failed. 2 Fatal Issue(s) 4 Warning(s) [in 8 ms] (/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap)
+[2018.07.27-16.21.38:185][938]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b110fb09c0, Size=112
+[2018.07.27-16.21.38:185][938]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0d8bb34a0, Size=112
+[2018.07.27-16.21.38:185][938]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0d85b4c60, Size=112
+[2018.07.27-16.21.38:185][938]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0c3c34100, Size=112
+[2018.07.27-16.21.38:186][938]LogPlayLevel: PlayLevel: Blueprint regeneration took 102 ms (1 blueprints)
+[2018.07.27-16.21.38:186][938]BlueprintLog: Blueprint 2DSideScrollerExampleMap failed to compile
+[2018.07.27-16.21.39:276][938]LogSlate: Window 'Message' being destroyed
+[2018.07.27-16.21.39:285][938]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jul 27, 2018, 8:21:39 AM)
+[2018.07.27-16.21.39:286][938]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.07.27-16.21.39:291][938]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005466s)
+[2018.07.27-16.21.39:292][938]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.07.27-16.21.39:292][938]LogPlayLevel: PIE: World Init took: (0.000662s)
+[2018.07.27-16.21.39:292][938]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.006287s)
+[2018.07.27-16.21.39:317][938]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.07.27-16.21.39:393][938]LogInit: FAudioDevice initialized.
+[2018.07.27-16.21.39:393][938]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.21.39:428][938]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.07.27-16.21.39:430][938]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2018.07.27-12.21.39
+[2018.07.27-16.21.39:431][938]LogWorld: Bringing up level for play took: 0.001648
+[2018.07.27-16.21.39:432][938]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 1.847
+[2018.07.27-16.21.39:432][938]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.21.57:481][ 12]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.21.57:522][ 12]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.22.00:874][170]LogEditorViewport: Clicking on Actor (LMB): BP_Teleporter_2_C (BP_Teleporter_3)
+[2018.07.27-16.22.03:364][301]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.22.12:459][772]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.22.41:252][392]LogEditorViewport: Clicking on Actor (LMB): BP_Teleporter_2_C (UpperPortal)
+[2018.07.27-16.22.50:322][837]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.22.50:390][841]BlueprintLog: New page: Compile BP_Teleporter_2
+[2018.07.27-16.22.50:397][841]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10de31328, Size=56
+[2018.07.27-16.22.50:397][841]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10d8d2668, Size=56, Default__BP_Teleporter_2_C Function /Engine/Transient.REINST_BP_Teleporter_2_C_114:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.22.50:398][841]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10de87270, Size=56, Default__BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.22.51:737][880]LogSavePackage: Save=34.15ms
+[2018.07.27-16.22.51:737][880]LogSavePackage: Moving '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/BP_Teleporter_296A218684DB25EA69ACB26B103F14495.tmp' to '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BP_Teleporter_2.uasset'
+[2018.07.27-16.22.51:741][880]LogSavePackage: Display: Finished SavePackage ../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BP_Teleporter_2.uasset
+[2018.07.27-16.22.54:270][976]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.22.54:369][982]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.27-16.22.54:391][982]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.22.54:392][982]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.07.27-16.22.54:397][982]LogPlayLevel: [PlayLevel] Compiling 2DSideScrollerExampleMap before play...
+[2018.07.27-16.22.54:403][982]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b1109e8410, Size=112
+[2018.07.27-16.22.54:403][982]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10d2fb5f0, Size=112, Default__2DSideScrollerExampleMap_C Function /Engine/Transient.REINST_2DSideScrollerExampleMap_C_118:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.22.54:404][982]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.22.54:404][982]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.22.54:405][982]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.22.54:405][982]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.22.54:405][982]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.22.54:405][982]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.22.54:405][982]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b101e739e0, Size=112, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.22.54:406][982]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] [2719.83] Compile of PersistentLevel.2DSideScrollerExampleMap failed. 2 Fatal Issue(s) 4 Warning(s) [in 9 ms] (/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap)
+[2018.07.27-16.22.54:494][982]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10d2fb5f0, Size=112
+[2018.07.27-16.22.54:494][982]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10d8d2668, Size=56
+[2018.07.27-16.22.54:494][982]LogPlayLevel: PlayLevel: Blueprint regeneration took 102 ms (1 blueprints)
+[2018.07.27-16.22.54:494][982]BlueprintLog: Blueprint 2DSideScrollerExampleMap failed to compile
+[2018.07.27-16.22.55:958][982]LogSlate: Window 'Message' being destroyed
+[2018.07.27-16.22.58:910][124]LogEditorViewport: Clicking on Actor (LMB): BP_Teleporter_2_C (Lower Portal)
+[2018.07.27-16.23.18:892][153]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.23.34:189][920]LogSlate: Window 'Change Variable Type' being destroyed
+[2018.07.27-16.23.34:198][920]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0d8e003d0, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.SKEL_BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.23.34:218][920]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.23.40:014][187]LogEditorTransaction: Undo Create Pin Link
+[2018.07.27-16.23.43:008][315]LogEditorTransaction: Undo Change Variable Type
+[2018.07.27-16.23.43:010][315]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0d8e003d0, Size=4
+[2018.07.27-16.23.43:010][315]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0d8e003d0, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Engine/Transient.REINST_SKEL_BP_Teleporter_2_C_122:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.23.43:011][315]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0d8e02068, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.SKEL_BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.23.47:283][516]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.07.27-16.23.47:291][516]LogSlate: Window 'Find in Blueprints' being destroyed
+[2018.07.27-16.23.50:418][669]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.25.20:257][450]LogEditorViewport: Clicking on Actor (LMB): BP_Teleporter_2_C (UpperPortal)
+[2018.07.27-16.25.21:646][522]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.25.25:832][729]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.25.25:916][734]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.27-16.25.25:936][734]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.25.25:936][734]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.07.27-16.25.25:940][734]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0d8e02068, Size=4
+[2018.07.27-16.25.25:940][734]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b100f79108, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Engine/Transient.REINST_SKEL_BP_Teleporter_2_C_124:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.25.25:940][734]LogPlayLevel: [PlayLevel] Compiling BP_Teleporter_2 before play...
+[2018.07.27-16.25.25:943][734]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10de87270, Size=56
+[2018.07.27-16.25.25:943][734]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10d3782c0, Size=56, Default__BP_Teleporter_2_C Function /Engine/Transient.REINST_BP_Teleporter_2_C_126:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.25.25:945][734]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0d40d7938, Size=56, Default__BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.25.26:307][734]LogPlayLevel: [PlayLevel] Compiling 2DSideScrollerExampleMap before play...
+[2018.07.27-16.25.26:312][734]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b101e739e0, Size=112
+[2018.07.27-16.25.26:312][734]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b111c77820, Size=112, Default__2DSideScrollerExampleMap_C Function /Engine/Transient.REINST_2DSideScrollerExampleMap_C_130:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.25.26:314][734]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.25.26:314][734]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.25.26:314][734]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.25.26:314][734]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.25.26:315][734]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.25.26:315][734]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.25.26:315][734]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b09e70e240, Size=112, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.25.26:315][734]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] [2871.74] Compile of PersistentLevel.2DSideScrollerExampleMap failed. 2 Fatal Issue(s) 4 Warning(s) [in 8 ms] (/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap)
+[2018.07.27-16.25.26:403][734]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b111c77820, Size=112
+[2018.07.27-16.25.26:403][734]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b100f79108, Size=4
+[2018.07.27-16.25.26:403][734]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10d3782c0, Size=56
+[2018.07.27-16.25.26:403][734]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0d8e003d0, Size=4
+[2018.07.27-16.25.26:403][734]LogPlayLevel: PlayLevel: Blueprint regeneration took 467 ms (2 blueprints)
+[2018.07.27-16.25.26:403][734]BlueprintLog: Blueprint 2DSideScrollerExampleMap failed to compile
+[2018.07.27-16.25.27:789][734]LogSlate: Window 'Message' being destroyed
+[2018.07.27-16.25.27:797][734]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jul 27, 2018, 8:25:27 AM)
+[2018.07.27-16.25.27:797][734]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.07.27-16.25.27:803][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005243s)
+[2018.07.27-16.25.27:803][734]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.07.27-16.25.27:803][734]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2018.07.27-16.25.27:803][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.005990s)
+[2018.07.27-16.25.27:829][734]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.07.27-16.25.27:905][734]LogInit: FAudioDevice initialized.
+[2018.07.27-16.25.27:905][734]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.25.27:940][734]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.07.27-16.25.27:942][734]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2018.07.27-12.25.27
+[2018.07.27-16.25.27:943][734]LogWorld: Bringing up level for play took: 0.001890
+[2018.07.27-16.25.27:945][734]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 2.359
+[2018.07.27-16.25.27:945][734]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.25.43:853][678]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.25.43:888][678]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.29.05:759][981]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.30.37:773][661]LogSlate: Window 'Change Variable Type' being destroyed
+[2018.07.27-16.30.37:782][661]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b100f7abe0, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.SKEL_BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.30.37:801][661]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.31.34:699][851]LogSlate: Window 'Change Variable Type' being destroyed
+[2018.07.27-16.31.34:708][851]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b100f7abe0, Size=4
+[2018.07.27-16.31.34:708][851]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10da672b0, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Engine/Transient.REINST_SKEL_BP_Teleporter_2_C_134:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.31.34:710][851]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10da65fe0, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.SKEL_BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.31.34:722][851]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.31.41:127][105]LogSlate: Window 'Change Variable Type' being destroyed
+[2018.07.27-16.31.41:136][105]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10da65fe0, Size=4
+[2018.07.27-16.31.41:136][105]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b100f7a3c8, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Engine/Transient.REINST_SKEL_BP_Teleporter_2_C_136:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.31.41:138][105]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b100f78198, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.SKEL_BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.31.41:152][105]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.31.42:645][156]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2018.07.27-16.31.52:122][233]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.31.54:585][299]LogSlate: Window 'Change Variable Type' being destroyed
+[2018.07.27-16.31.54:592][299]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b100f78198, Size=4
+[2018.07.27-16.31.54:592][299]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0d8e01940, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Engine/Transient.REINST_SKEL_BP_Teleporter_2_C_138:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.31.54:594][299]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0d8e02a28, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.SKEL_BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.31.54:604][299]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.31.56:794][380]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2018.07.27-16.32.22:442][486]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0d8e01940, Size=4
+[2018.07.27-16.32.22:442][486]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b100f7a3c8, Size=4
+[2018.07.27-16.32.22:442][486]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10da672b0, Size=4
+[2018.07.27-16.32.22:752][486]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b09e70e240, Size=112
+[2018.07.27-16.32.22:752][486]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0b3734f00, Size=112, Default__2DSideScrollerExampleMap_C Function /Engine/Transient.REINST_2DSideScrollerExampleMap_C_142:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.32.22:754][486]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.32.22:754][486]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.32.22:754][486]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.32.22:754][486]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.32.22:755][486]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.32.22:755][486]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.32.22:755][486]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0c3c35c20, Size=112, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.32.22:755][486]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] [3288.18] Compile of PersistentLevel.2DSideScrollerExampleMap failed. 2 Fatal Issue(s) 4 Warning(s) [in 9 ms] (/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap)
+[2018.07.27-16.32.22:891][486]LogSavePackage: Save=150.71ms
+[2018.07.27-16.32.22:891][486]LogSavePackage: Moving '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/2DSideScrollerExampleMap_Auto4CD22F24445D7F6E07A97F69A2BE4A778.tmp' to '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto4.umap'
+[2018.07.27-16.32.22:903][486]LogSavePackage: Display: Finished SavePackage ../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto4.umap
+[2018.07.27-16.32.22:906][486]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.486
+[2018.07.27-16.32.22:906][486]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.486
+[2018.07.27-16.32.22:908][486]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2] ([1] browsable assets)...
+[2018.07.27-16.32.22:920][486]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.BP_Teleporter_2]
+[2018.07.27-16.32.22:920][486]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2]
+[2018.07.27-16.32.22:958][486]LogSavePackage: Save=25.86ms
+[2018.07.27-16.32.22:958][486]LogSavePackage: Moving '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/BP_Teleporter_2_Auto4A85AC33B435D82446DFF46A3271EE36B.tmp' to '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2_Auto4.uasset'
+[2018.07.27-16.32.22:960][486]LogSavePackage: Display: Finished SavePackage ../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2_Auto4.uasset
+[2018.07.27-16.32.22:960][486]LogFileHelpers: Auto-saving content packages took 0.053
+[2018.07.27-16.32.24:690][492]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.32.29:877][703]LogSlate: Window 'Change Variable Type' being destroyed
+[2018.07.27-16.32.29:885][703]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0d8e02a28, Size=4
+[2018.07.27-16.32.29:885][703]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10da65648, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Engine/Transient.REINST_SKEL_BP_Teleporter_2_C_144:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.32.29:887][703]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10da64268, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.SKEL_BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.32.29:900][703]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.32.50:264][493]LogSlate: Window 'Change Variable Type' being destroyed
+[2018.07.27-16.32.53:077][580]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.32.55:452][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.32.55:520][670]BlueprintLog: New page: Compile BP_Teleporter_2
+[2018.07.27-16.32.55:524][670]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10da64268, Size=4
+[2018.07.27-16.32.55:524][670]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b100f7ac38, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Engine/Transient.REINST_SKEL_BP_Teleporter_2_C_146:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.32.55:528][670]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0d40d7938, Size=56
+[2018.07.27-16.32.55:528][670]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10de31c20, Size=56, Default__BP_Teleporter_2_C Function /Engine/Transient.REINST_BP_Teleporter_2_C_148:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.32.55:529][670]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10de32390, Size=56, Default__BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.32.55:972][670]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0b3734f00, Size=112
+[2018.07.27-16.32.55:972][670]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10da65648, Size=4
+[2018.07.27-16.32.55:972][670]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b100f7ac38, Size=4
+[2018.07.27-16.32.56:719][700]LogSavePackage: Save=26.60ms
+[2018.07.27-16.32.56:720][700]LogSavePackage: Moving '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/BP_Teleporter_2F4CA52C74447193DDFC536809EE3C820.tmp' to '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BP_Teleporter_2.uasset'
+[2018.07.27-16.32.56:728][700]LogSavePackage: Display: Finished SavePackage ../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BP_Teleporter_2.uasset
+[2018.07.27-16.32.59:836][815]LogEditorViewport: Clicking Background
+[2018.07.27-16.33.04:011][  6]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.33.14:333][512]LogEditorViewport: Clicking on Actor (LMB): BP_Teleporter_2_C (UpperPortal)
+[2018.07.27-16.33.15:816][583]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.33.23:428][946]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.33.23:545][950]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10de31c20, Size=56
+[2018.07.27-16.33.23:561][950]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0c3c35c20, Size=112
+[2018.07.27-16.33.23:561][950]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10d3f54b0, Size=112, Default__2DSideScrollerExampleMap_C Function /Engine/Transient.REINST_2DSideScrollerExampleMap_C_152:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.33.23:562][950]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.33.23:563][950]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.33.23:563][950]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.33.23:563][950]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.33.23:564][950]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.33.23:564][950]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.33.23:564][950]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b111c74a30, Size=112, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.33.23:565][950]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] [3348.99] Compile of PersistentLevel.2DSideScrollerExampleMap failed. 2 Fatal Issue(s) 4 Warning(s) [in 9 ms] (/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap)
+[2018.07.27-16.33.23:703][950]LogSavePackage: Save=152.75ms
+[2018.07.27-16.33.23:703][950]LogSavePackage: Moving '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/2DSideScrollerExampleMapA78AA5E64A8B4EE091F18183B8AFF821.tmp' to '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2018.07.27-16.33.23:707][950]LogSavePackage: Display: Finished SavePackage ../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2018.07.27-16.33.25:726][  5]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.33.25:792][  9]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.27-16.33.25:816][  9]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.33.25:816][  9]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.07.27-16.33.25:822][  9]LogPlayLevel: [PlayLevel] Compiling 2DSideScrollerExampleMap before play...
+[2018.07.27-16.33.25:827][  9]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b111c74a30, Size=112
+[2018.07.27-16.33.25:827][  9]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b1239c12f0, Size=112, 2DSideScrollerExampleMap_C_7 Function /Engine/Transient.REINST_2DSideScrollerExampleMap_C_156:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.33.25:829][  9]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.33.25:829][  9]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.33.25:829][  9]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.33.25:829][  9]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.33.25:830][  9]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.33.25:830][  9]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.33.25:830][  9]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0b3737ba0, Size=112, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.33.25:831][  9]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] [3351.25] Compile of PersistentLevel.2DSideScrollerExampleMap failed. 2 Fatal Issue(s) 4 Warning(s) [in 9 ms] (/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap)
+[2018.07.27-16.33.25:921][  9]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b1239c12f0, Size=112
+[2018.07.27-16.33.25:921][  9]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10d3f54b0, Size=112
+[2018.07.27-16.33.25:922][  9]LogPlayLevel: PlayLevel: Blueprint regeneration took 106 ms (1 blueprints)
+[2018.07.27-16.33.25:922][  9]BlueprintLog: Blueprint 2DSideScrollerExampleMap failed to compile
+[2018.07.27-16.33.27:114][  9]LogSlate: Window 'Message' being destroyed
+[2018.07.27-16.33.27:121][  9]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jul 27, 2018, 8:33:27 AM)
+[2018.07.27-16.33.27:121][  9]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.07.27-16.33.27:127][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005989s)
+[2018.07.27-16.33.27:128][  9]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.07.27-16.33.27:128][  9]LogPlayLevel: PIE: World Init took: (0.000800s)
+[2018.07.27-16.33.27:128][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.006964s)
+[2018.07.27-16.33.27:155][  9]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.07.27-16.33.27:235][  9]LogInit: FAudioDevice initialized.
+[2018.07.27-16.33.27:235][  9]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.33.27:266][  9]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.07.27-16.33.27:268][  9]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2018.07.27-12.33.27
+[2018.07.27-16.33.27:268][  9]LogWorld: Bringing up level for play took: 0.001490
+[2018.07.27-16.33.27:270][  9]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 1.684
+[2018.07.27-16.33.27:270][  9]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.33.38:776][684]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.33.38:819][684]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.36.24:655][252]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.36.29:692][361]LogSlate: Window 'Delete Variable' being destroyed
+[2018.07.27-16.36.29:703][361]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b0d8e010a0, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.SKEL_BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.36.36:093][634]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.36.38:590][738]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b1260e8e18, Size=4, Default__SKEL_2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.27-16.36.45:101][116]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b1260e8e18, Size=4
+[2018.07.27-16.36.45:101][116]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b1260e8e18, Size=4, Default__SKEL_2DSideScrollerCharacter_C Function /Engine/Transient.REINST_SKEL_2DSideScrollerCharacter_C_162:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.27-16.36.45:103][116]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b1260e8ea0, Size=4, Default__SKEL_2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.27-16.36.47:251][230]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b1260e8ea0, Size=4
+[2018.07.27-16.36.47:251][230]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b1260e8ea0, Size=4, Default__SKEL_2DSideScrollerCharacter_C Function /Engine/Transient.REINST_SKEL_2DSideScrollerCharacter_C_164:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.27-16.36.47:254][230]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b1260e8560, Size=4, Default__SKEL_2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.27-16.36.48:312][279]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2018.07.27-16.36.48:322][279]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b1260e8560, Size=4
+[2018.07.27-16.36.48:322][279]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b1260e8560, Size=4, Default__SKEL_2DSideScrollerCharacter_C Function /Engine/Transient.REINST_SKEL_2DSideScrollerCharacter_C_167:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.27-16.36.48:340][279]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b088a44540, Size=288
+[2018.07.27-16.36.48:340][279]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b12774ee80, Size=288, Default__2DSideScrollerCharacter_C Function /Engine/Transient.REINST_2DSideScrollerCharacter_C_171:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.27-16.36.48:345][279]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b12774e480, Size=288, Default__2DSideScrollerCharacter_C Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter
+[2018.07.27-16.36.48:582][279]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b1260e8560, Size=4
+[2018.07.27-16.36.48:582][279]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b1260e8ea0, Size=4
+[2018.07.27-16.36.49:120][301]LogSavePackage: Save=36.58ms
+[2018.07.27-16.36.49:120][301]LogSavePackage: Moving '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/2DSideScrollerCharacterBED5597A4328313B7F78A69BD89CD041.tmp' to '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2018.07.27-16.36.49:123][301]LogSavePackage: Display: Finished SavePackage ../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2018.07.27-16.37.09:715][749]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.39.04:351][748]BlueprintLog: New page: Compile BP_Teleporter_2
+[2018.07.27-16.39.04:355][748]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0d8e010a0, Size=4
+[2018.07.27-16.39.04:355][748]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b128e5feb0, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Engine/Transient.REINST_SKEL_BP_Teleporter_2_C_173:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.39.04:358][748]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b10de32390, Size=56
+[2018.07.27-16.39.04:359][748]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b12d719c58, Size=56, Default__BP_Teleporter_2_C Function /Engine/Transient.REINST_BP_Teleporter_2_C_175:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.39.04:360][748]LogBlueprint: Error: [Compiler BP_Teleporter_2] This blueprint (self) is not a 2DSideScrollerCharacter_C, therefore ' Target ' must have a connection.
+[2018.07.27-16.39.04:360][748]LogBlueprint: Error: [Compiler BP_Teleporter_2] This blueprint (self) is not a 2DSideScrollerCharacter_C, therefore ' Target ' must have a connection.
+[2018.07.27-16.39.04:360][748]LogBlueprint: Error: [Compiler BP_Teleporter_2] This blueprint (self) is not a 2DSideScrollerCharacter_C, therefore ' Target ' must have a connection.
+[2018.07.27-16.39.04:360][748]LogBlueprint: Error: [Compiler BP_Teleporter_2] Variable node  Set Is Teleporting  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.07.27-16.39.04:360][748]LogBlueprint: Error: [Compiler BP_Teleporter_2] Variable node  Get Is Teleporting  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.07.27-16.39.04:360][748]LogBlueprint: Error: [Compiler BP_Teleporter_2] Variable node  Set Is Teleporting  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.07.27-16.39.04:360][748]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b12d719bb0, Size=56, Default__BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.39.04:455][748]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b128e5feb0, Size=4
+[2018.07.27-16.39.04:462][748]LogBlueprint: Warning: [Compiler BP_Teleporter_2] [3689.88] Compile of BP_Teleporter_2 failed. 6 Fatal Issue(s) 0 Warning(s) [in 112 ms] (/Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.BP_Teleporter_2)
+[2018.07.27-16.40.09:450][261]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b12f04f8d8, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.SKEL_BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.40.23:542][  8]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b12f04f8d8, Size=4
+[2018.07.27-16.40.23:542][  8]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b120a21458, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Engine/Transient.REINST_SKEL_BP_Teleporter_2_C_179:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.40.23:544][  8]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b120a22860, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.SKEL_BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.40.26:008][128]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b120a22860, Size=4
+[2018.07.27-16.40.26:008][128]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b128343c90, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Engine/Transient.REINST_SKEL_BP_Teleporter_2_C_181:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.40.26:009][128]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b128343cd0, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.SKEL_BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.40.29:677][330]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b128343cd0, Size=4
+[2018.07.27-16.40.29:677][330]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b12acff180, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Engine/Transient.REINST_SKEL_BP_Teleporter_2_C_183:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.40.29:678][330]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b12acfc9e8, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.SKEL_BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.40.42:121][871]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b12acfc9e8, Size=4
+[2018.07.27-16.40.42:121][871]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b128d34578, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Engine/Transient.REINST_SKEL_BP_Teleporter_2_C_185:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.40.42:123][871]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b128d34908, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.SKEL_BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.40.43:587][929]BlueprintLog: New page: Compile BP_Teleporter_2
+[2018.07.27-16.40.43:592][929]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b128d34908, Size=4
+[2018.07.27-16.40.43:593][929]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b12acffae8, Size=4, Default__SKEL_BP_Teleporter_2_C Function /Engine/Transient.REINST_SKEL_BP_Teleporter_2_C_187:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.40.43:597][929]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b12d719bb0, Size=56
+[2018.07.27-16.40.43:597][929]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b129ef3970, Size=56, BP_Teleporter_2_C_175 Function /Engine/Transient.REINST_BP_Teleporter_2_C_189:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.40.43:598][929]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b129ef0448, Size=56, Default__BP_Teleporter_2_C Function /Game/2DSideScrollerBP/Blueprints/BP_Teleporter_2.BP_Teleporter_2_C:ExecuteUbergraph_BP_Teleporter_2
+[2018.07.27-16.40.43:977][929]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b128343c90, Size=4
+[2018.07.27-16.40.43:977][929]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b12d719c58, Size=56
+[2018.07.27-16.40.43:977][929]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b120a21458, Size=4
+[2018.07.27-16.40.43:978][929]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b12acff180, Size=4
+[2018.07.27-16.40.43:978][929]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b128d34578, Size=4
+[2018.07.27-16.40.43:978][929]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b12acffae8, Size=4
+[2018.07.27-16.40.44:931][974]LogSavePackage: Save=27.78ms
+[2018.07.27-16.40.44:931][974]LogSavePackage: Moving '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Saved/BP_Teleporter_23D8196ED482A2986C832D99D2250037F.tmp' to '../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BP_Teleporter_2.uasset'
+[2018.07.27-16.40.44:935][974]LogSavePackage: Display: Finished SavePackage ../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BP_Teleporter_2.uasset
+[2018.07.27-16.40.46:157][ 23]LogEditorViewport: Clicking Background
+[2018.07.27-16.40.48:676][165]LogEditorViewport: Clicking on Actor (LMB): BP_Teleporter_2_C (Lower Portal)
+[2018.07.27-16.40.50:071][224]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.40.52:701][358]LogEditorViewport: Clicking on Actor (LMB): BP_Teleporter_2_C (UpperPortal)
+[2018.07.27-16.40.53:857][412]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.40.55:677][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.40.55:744][493]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.27-16.40.55:780][493]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.40.55:780][493]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.07.27-16.40.55:785][493]LogPlayLevel: [PlayLevel] Compiling 2DSideScrollerExampleMap before play...
+[2018.07.27-16.40.55:791][493]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b0b3737ba0, Size=112
+[2018.07.27-16.40.55:791][493]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b1287bfb30, Size=112, Default__2DSideScrollerExampleMap_C Function /Engine/Transient.REINST_2DSideScrollerExampleMap_C_193:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.40.55:792][493]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.40.55:793][493]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.40.55:793][493]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.40.55:793][493]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.40.55:794][493]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.40.55:794][493]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.40.55:794][493]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b117419050, Size=112, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.40.55:794][493]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] [3801.22] Compile of PersistentLevel.2DSideScrollerExampleMap failed. 2 Fatal Issue(s) 4 Warning(s) [in 9 ms] (/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap)
+[2018.07.27-16.40.55:891][493]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b1287bfb30, Size=112
+[2018.07.27-16.40.55:891][493]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b129ef3970, Size=56
+[2018.07.27-16.40.55:891][493]LogPlayLevel: PlayLevel: Blueprint regeneration took 111 ms (1 blueprints)
+[2018.07.27-16.40.55:891][493]BlueprintLog: Blueprint 2DSideScrollerExampleMap failed to compile
+[2018.07.27-16.40.57:083][493]LogSlate: Window 'Message' being destroyed
+[2018.07.27-16.40.57:093][493]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jul 27, 2018, 8:40:57 AM)
+[2018.07.27-16.40.57:093][493]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.07.27-16.40.57:099][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005380s)
+[2018.07.27-16.40.57:099][493]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.07.27-16.40.57:099][493]LogPlayLevel: PIE: World Init took: (0.000892s)
+[2018.07.27-16.40.57:100][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.006467s)
+[2018.07.27-16.40.57:127][493]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.07.27-16.40.57:203][493]LogInit: FAudioDevice initialized.
+[2018.07.27-16.40.57:203][493]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.27-16.40.57:234][493]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.07.27-16.40.57:237][493]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2018.07.27-12.40.57
+[2018.07.27-16.40.57:237][493]LogWorld: Bringing up level for play took: 0.001504
+[2018.07.27-16.40.57:239][493]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 1.654
+[2018.07.27-16.40.57:239][493]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.41.08:748][168]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.41.08:792][168]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.41.11:502][292]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-16.41.11:568][296]LogTemp: Repeating last play command: Selected Viewport
+[2018.07.27-16.41.11:588][296]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.07.27-16.41.11:588][296]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.07.27-16.41.11:594][296]LogPlayLevel: [PlayLevel] Compiling 2DSideScrollerExampleMap before play...
+[2018.07.27-16.41.11:599][296]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b117419050, Size=112
+[2018.07.27-16.41.11:600][296]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b1289990c0, Size=112, Default__2DSideScrollerExampleMap_C Function /Engine/Transient.REINST_2DSideScrollerExampleMap_C_197:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.41.11:601][296]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.41.11:601][296]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
+[2018.07.27-16.41.11:601][296]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.41.11:601][296]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] Node  Unknown  is not referencing a valid level actor
+[2018.07.27-16.41.11:602][296]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.41.11:602][296]LogBlueprint: Error: [Compiler PersistentLevel.2DSideScrollerExampleMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.07.27-16.41.11:602][296]LogUObjectGlobals: Created PersistentFrame Addr=0x000001b10d80dde0, Size=112, Default__2DSideScrollerExampleMap_C Function /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C:ExecuteUbergraph_2DSideScrollerExampleMap
+[2018.07.27-16.41.11:603][296]LogBlueprint: Warning: [Compiler PersistentLevel.2DSideScrollerExampleMap] [3817.02] Compile of PersistentLevel.2DSideScrollerExampleMap failed. 2 Fatal Issue(s) 4 Warning(s) [in 9 ms] (/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap)
+[2018.07.27-16.41.11:694][296]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001b1289990c0, Size=112
+[2018.07.27-16.41.11:694][296]LogPlayLevel: PlayLevel: Blueprint regeneration took 106 ms (1 blueprints)
+[2018.07.27-16.41.11:694][296]BlueprintLog: Blueprint 2DSideScrollerExampleMap failed to compile
+[2018.07.27-16.41.13:863][296]LogSlate: Window 'Message' being destroyed
+[2018.07.27-16.42.48:231][703]LogSlate: FSceneViewport::OnFocusLost() reason 2
+>>>>>>> 4af8b2d4c11c8a3d99528972ab99dd42c55475e4

@@ -15,4 +15,4 @@ Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll	2018-07-04T20:04:01.88
 Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll	2018-07-04T20:04:11.257Z
 Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll	2018-07-04T20:04:11.267Z
 Engine/Binaries/ThirdParty/OpenVR/OpenVRv1_0_10/Win64/openvr_api.dll	2018-07-04T20:04:02.063Z
-VGDUNRL_TTR_ALPHA.exe	2018-07-26T22:26:34.212Z
+VGDUNRL_TTR_ALPHA.exe	2018-07-30T18:00:44.266Z

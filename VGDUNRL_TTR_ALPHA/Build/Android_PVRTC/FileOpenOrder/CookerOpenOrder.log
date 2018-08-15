@@ -1741,137 +1741,137 @@
 "../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/TrekBook_BookSprite_0.uasset" 1740
 "../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BP_TrekBook_Ledge.uasset" 1741
 "../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/TrekBook_Ledge.uasset" 1742
-"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 1743
-"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 1744
-"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/FlatNormalMap.uasset" 1745
-"../../Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset" 1746
-"../../Plugins/2D/Paper2D/Content/MaskedLitSpriteMaterial.uasset" 1747
-"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 1748
-"../../Plugins/2D/Paper2D/Content/OpaqueLitSpriteMaterial.uasset" 1749
-"../../Plugins/2D/Paper2D/Content/TranslucentLitSpriteMaterial.uasset" 1750
-"../../Plugins/Enterprise/DatasmithContent/Content/Datasmith/DatasmithLayer.uasset" 1751
-"../../Plugins/Enterprise/DatasmithContent/Content/Datasmith/DatasmithActor.uasset" 1752
-"../../Plugins/Enterprise/DatasmithContent/Content/Datasmith/AreaLightsStruct.uasset" 1753
-"../../Plugins/Enterprise/DatasmithContent/Content/Meshes/cylinder.uasset" 1754
-"../../Plugins/Enterprise/DatasmithContent/Content/Meshes/disc.uasset" 1755
-"../../Plugins/Enterprise/DatasmithContent/Content/Meshes/sphere.uasset" 1756
-"../../Plugins/Enterprise/DatasmithContent/Content/Meshes/square.uasset" 1757
-"../../Plugins/Enterprise/DatasmithContent/Content/Datasmith/AreaLightsTable.uasset" 1758
-"../../Plugins/Enterprise/DatasmithContent/Content/Materials/Arealight.uasset" 1759
-"../../Plugins/Enterprise/DatasmithContent/Content/Datasmith/DatasmithArealightMesh.uasset" 1760
-"../../Plugins/Enterprise/DatasmithContent/Content/Datasmith/DatasmithSelector.uasset" 1761
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal.uasset" 1762
-"../../Plugins/Enterprise/DatasmithContent/Content/Materials/CE_BaseMaster.uasset" 1763
-"../../Plugins/Enterprise/DatasmithContent/Content/Materials/CE_OpacityMaster.uasset" 1764
-"../../Plugins/Enterprise/DatasmithContent/Content/Materials/CE_OpacitySimpleMaster.uasset" 1765
-"../../Plugins/Enterprise/DatasmithContent/Content/Materials/CE_OpaqueMaster.uasset" 1766
-"../../Plugins/Enterprise/DatasmithContent/Content/Materials/CropUV.uasset" 1767
-"../../Plugins/Enterprise/DatasmithContent/Content/Materials/CroppedUVMapping.uasset" 1768
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Math/RGBtoHSV.uasset" 1769
-"../../Plugins/Enterprise/DatasmithContent/Content/Materials/Datasmith_Color.uasset" 1770
-"../../Plugins/Enterprise/DatasmithContent/Content/Materials/HSVtoRGB.uasset" 1771
-"../../Plugins/Enterprise/DatasmithContent/Content/Materials/RGBtoHSV.uasset" 1772
-"../../Plugins/Enterprise/DatasmithContent/Content/Textures/S_LightArea.uasset" 1773
-"../../Plugins/Media/MediaCompositing/Content/DefaultMediaPlaneTexture.uasset" 1774
-"../../Plugins/Media/MediaCompositing/Content/DefaultMediaPlaneMaterial.uasset" 1775
-"../../Plugins/Runtime/AppleARKit/Content/ARKitCameraMaterial.uasset" 1776
-"../../Plugins/Runtime/Oculus/OculusVR/Content/OculusMR_GreenKey.uasset" 1777
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_AO.uasset" 1778
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Color.uasset" 1779
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Normal.uasset" 1780
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/GearVRControllerMaterial.uasset" 1781
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/GearVrController.uasset" 1782
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_albedo.uasset" 1783
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_controlmap.uasset" 1784
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/touchController_mat.uasset" 1785
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchController.uasset" 1786
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/OculusGoController_albedo.uasset" 1787
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusGoControllerMaterial.uasset" 1788
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/OculusGoController.uasset" 1789
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchController.uasset" 1790
-"../../Plugins/Runtime/Steam/SteamVR/Content/Materials/M_DefaultDevice.uasset" 1791
-"../../../Engine/Content/Maps/Entry.umap" 1792
-"../../../Engine/Content/Maps/Templates/Template_Default_BuiltData.uasset" 1793
-"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 1794
-"../../../Engine/Content/Maps/Templates/Template_Default.umap" 1795
-"../../../Engine/Content/VREditor/BasicMeshes/T_CleanFloorGrunge_01_D.uasset" 1796
-"../../../Engine/Content/VREditor/BasicMeshes/M_Floor_01.uasset" 1797
-"../../../Engine/Content/VREditor/BasicMeshes/MI_Ball_01.uasset" 1798
-"../../../Engine/Content/VREditor/BasicMeshes/SM_Ball_01.uasset" 1799
-"../../../Engine/Content/VREditor/BasicMeshes/MI_Cube_01.uasset" 1800
-"../../../Engine/Content/VREditor/BasicMeshes/SM_Cube_01.uasset" 1801
-"../../../Engine/Content/VREditor/BasicMeshes/MI_Cube_02.uasset" 1802
-"../../../Engine/Content/VREditor/BasicMeshes/SM_Cube_02.uasset" 1803
-"../../../Engine/Content/VREditor/BasicMeshes/MI_Cube_03.uasset" 1804
-"../../../Engine/Content/VREditor/BasicMeshes/SM_Cube_03.uasset" 1805
-"../../../Engine/Content/VREditor/BasicMeshes/MI_Pyramid_01.uasset" 1806
-"../../../Engine/Content/VREditor/BasicMeshes/SM_Pyramid_01.uasset" 1807
-"../../../Engine/Content/VREditor/BasicMeshes/SM_Room_01.uasset" 1808
-"../../../Engine/Content/Maps/Templates/VR-Basic.umap" 1809
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BP_RotatingPlatform.uasset" 1810
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Textures/springbook.uasset" 1811
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Spring/springbook_Sprite_0.uasset" 1812
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Spring/springbook_Sprite_1.uasset" 1813
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Spring/springbook_Sprite_2.uasset" 1814
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Spring/springbook_Sprite_3.uasset" 1815
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Spring/springbook_Sprite_4.uasset" 1816
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Animations/bookSpring.uasset" 1817
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BP_Spring.uasset" 1818
-"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 1819
-"../../../Engine/Content/BufferVisualization/AmbientOcclusion.uasset" 1820
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Portal/Portal/portal_in.uasset" 1821
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BP_Teleporter_2.uasset" 1822
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Blob/Enemy_Atlas_Sprite_10.uasset" 1823
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Blob/Enemy_Atlas_Sprite_11.uasset" 1824
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Blob/Enemy_Atlas_Sprite_12.uasset" 1825
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Blob/Enemy_Atlas_Sprite_13.uasset" 1826
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Blob/Enemy_Atlas_Sprite_14.uasset" 1827
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Animations/Blob.uasset" 1828
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Audio/Ouch.uasset" 1829
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Audio/Ouch_Cue.uasset" 1830
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Textures/BlobDeath.uasset" 1831
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_0.uasset" 1832
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_1.uasset" 1833
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_10.uasset" 1834
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_11.uasset" 1835
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_2.uasset" 1836
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_3.uasset" 1837
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_4.uasset" 1838
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_5.uasset" 1839
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_6.uasset" 1840
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_7.uasset" 1841
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_8.uasset" 1842
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_9.uasset" 1843
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath.uasset" 1844
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BP_TheBlob_Hopper.uasset" 1845
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BP_TheBlob_Hopper_Timed.uasset" 1846
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Cloud/Enemy_Atlas_Sprite_1.uasset" 1847
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Cloud/Enemy_Atlas_Sprite_2.uasset" 1848
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Cloud/Enemy_Atlas_Sprite_3.uasset" 1849
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Animations/CloudAnimation.uasset" 1850
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/TheCloud.uasset" 1851
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Maps/2DNewLevel_BuiltData.uasset" 1852
-"../../../Engine/Content/MapTemplates/Bokeh_5Sides.uasset" 1853
-"../../../Engine/Content/MapTemplates/T_ScreenDirt02_w.uasset" 1854
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Textures/Nebula.uasset" 1855
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Nebula_Sprite.uasset" 1856
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/TrekBook_BookSprite_3.uasset" 1857
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Maps/2DNewLevel.umap" 1858
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Textures/rainbow.uasset" 1859
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/UI_Menu.uasset" 1860
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Maps/MainMenu.umap" 1861
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Textures/shattered_goomba_games.uasset" 1862
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/UI_SplashScreen.uasset" 1863
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Maps/SplashScreen.umap" 1864
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Textures/WheelchairMove.uasset" 1865
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/WheelieFrames/WheelchairMove_Sprite_0.uasset" 1866
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/WheelieFrames/WheelchairMove_Sprite_1.uasset" 1867
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/WheelieFrames/WheelchairMove_Sprite_2.uasset" 1868
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/WheelieFrames/WheelchairMove_Sprite_3.uasset" 1869
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/WheelieFrames/WheelchairMove_Sprite_4.uasset" 1870
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/WheelieFrames/WheelchairMove_Sprite_5.uasset" 1871
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Animations/Wheelie.uasset" 1872
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BP_ProfJLP.uasset" 1873
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Audio/Rainbow.uasset" 1874
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Audio/Rainbow_Cue.uasset" 1875
-"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Maps/2DPuzzleLevel.umap" 1876
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Textures/shattered_goomba_games.uasset" 1743
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/UI_SplashScreen.uasset" 1744
+"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 1745
+"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 1746
+"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/FlatNormalMap.uasset" 1747
+"../../Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset" 1748
+"../../Plugins/2D/Paper2D/Content/MaskedLitSpriteMaterial.uasset" 1749
+"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 1750
+"../../Plugins/2D/Paper2D/Content/OpaqueLitSpriteMaterial.uasset" 1751
+"../../Plugins/2D/Paper2D/Content/TranslucentLitSpriteMaterial.uasset" 1752
+"../../Plugins/Enterprise/DatasmithContent/Content/Datasmith/DatasmithLayer.uasset" 1753
+"../../Plugins/Enterprise/DatasmithContent/Content/Datasmith/DatasmithActor.uasset" 1754
+"../../Plugins/Enterprise/DatasmithContent/Content/Datasmith/AreaLightsStruct.uasset" 1755
+"../../Plugins/Enterprise/DatasmithContent/Content/Meshes/cylinder.uasset" 1756
+"../../Plugins/Enterprise/DatasmithContent/Content/Meshes/disc.uasset" 1757
+"../../Plugins/Enterprise/DatasmithContent/Content/Meshes/sphere.uasset" 1758
+"../../Plugins/Enterprise/DatasmithContent/Content/Meshes/square.uasset" 1759
+"../../Plugins/Enterprise/DatasmithContent/Content/Datasmith/AreaLightsTable.uasset" 1760
+"../../Plugins/Enterprise/DatasmithContent/Content/Materials/Arealight.uasset" 1761
+"../../Plugins/Enterprise/DatasmithContent/Content/Datasmith/DatasmithArealightMesh.uasset" 1762
+"../../Plugins/Enterprise/DatasmithContent/Content/Datasmith/DatasmithSelector.uasset" 1763
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal.uasset" 1764
+"../../Plugins/Enterprise/DatasmithContent/Content/Materials/CE_BaseMaster.uasset" 1765
+"../../Plugins/Enterprise/DatasmithContent/Content/Materials/CE_OpacityMaster.uasset" 1766
+"../../Plugins/Enterprise/DatasmithContent/Content/Materials/CE_OpacitySimpleMaster.uasset" 1767
+"../../Plugins/Enterprise/DatasmithContent/Content/Materials/CE_OpaqueMaster.uasset" 1768
+"../../Plugins/Enterprise/DatasmithContent/Content/Materials/CropUV.uasset" 1769
+"../../Plugins/Enterprise/DatasmithContent/Content/Materials/CroppedUVMapping.uasset" 1770
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Math/RGBtoHSV.uasset" 1771
+"../../Plugins/Enterprise/DatasmithContent/Content/Materials/Datasmith_Color.uasset" 1772
+"../../Plugins/Enterprise/DatasmithContent/Content/Materials/HSVtoRGB.uasset" 1773
+"../../Plugins/Enterprise/DatasmithContent/Content/Materials/RGBtoHSV.uasset" 1774
+"../../Plugins/Enterprise/DatasmithContent/Content/Textures/S_LightArea.uasset" 1775
+"../../Plugins/Media/MediaCompositing/Content/DefaultMediaPlaneTexture.uasset" 1776
+"../../Plugins/Media/MediaCompositing/Content/DefaultMediaPlaneMaterial.uasset" 1777
+"../../Plugins/Runtime/AppleARKit/Content/ARKitCameraMaterial.uasset" 1778
+"../../Plugins/Runtime/Oculus/OculusVR/Content/OculusMR_GreenKey.uasset" 1779
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_AO.uasset" 1780
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Color.uasset" 1781
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Normal.uasset" 1782
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/GearVRControllerMaterial.uasset" 1783
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/GearVrController.uasset" 1784
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_albedo.uasset" 1785
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_controlmap.uasset" 1786
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/touchController_mat.uasset" 1787
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchController.uasset" 1788
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Textures/OculusGoController_albedo.uasset" 1789
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusGoControllerMaterial.uasset" 1790
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/OculusGoController.uasset" 1791
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchController.uasset" 1792
+"../../Plugins/Runtime/Steam/SteamVR/Content/Materials/M_DefaultDevice.uasset" 1793
+"../../../Engine/Content/Maps/Entry.umap" 1794
+"../../../Engine/Content/Maps/Templates/Template_Default_BuiltData.uasset" 1795
+"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 1796
+"../../../Engine/Content/Maps/Templates/Template_Default.umap" 1797
+"../../../Engine/Content/VREditor/BasicMeshes/T_CleanFloorGrunge_01_D.uasset" 1798
+"../../../Engine/Content/VREditor/BasicMeshes/M_Floor_01.uasset" 1799
+"../../../Engine/Content/VREditor/BasicMeshes/MI_Ball_01.uasset" 1800
+"../../../Engine/Content/VREditor/BasicMeshes/SM_Ball_01.uasset" 1801
+"../../../Engine/Content/VREditor/BasicMeshes/MI_Cube_01.uasset" 1802
+"../../../Engine/Content/VREditor/BasicMeshes/SM_Cube_01.uasset" 1803
+"../../../Engine/Content/VREditor/BasicMeshes/MI_Cube_02.uasset" 1804
+"../../../Engine/Content/VREditor/BasicMeshes/SM_Cube_02.uasset" 1805
+"../../../Engine/Content/VREditor/BasicMeshes/MI_Cube_03.uasset" 1806
+"../../../Engine/Content/VREditor/BasicMeshes/SM_Cube_03.uasset" 1807
+"../../../Engine/Content/VREditor/BasicMeshes/MI_Pyramid_01.uasset" 1808
+"../../../Engine/Content/VREditor/BasicMeshes/SM_Pyramid_01.uasset" 1809
+"../../../Engine/Content/VREditor/BasicMeshes/SM_Room_01.uasset" 1810
+"../../../Engine/Content/Maps/Templates/VR-Basic.umap" 1811
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BP_RotatingPlatform.uasset" 1812
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Textures/springbook.uasset" 1813
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Spring/springbook_Sprite_0.uasset" 1814
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Spring/springbook_Sprite_1.uasset" 1815
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Spring/springbook_Sprite_2.uasset" 1816
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Spring/springbook_Sprite_3.uasset" 1817
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Spring/springbook_Sprite_4.uasset" 1818
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Animations/bookSpring.uasset" 1819
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BP_Spring.uasset" 1820
+"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 1821
+"../../../Engine/Content/BufferVisualization/AmbientOcclusion.uasset" 1822
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Portal/Portal/portal_in.uasset" 1823
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BP_Teleporter_2.uasset" 1824
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Blob/Enemy_Atlas_Sprite_10.uasset" 1825
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Blob/Enemy_Atlas_Sprite_11.uasset" 1826
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Blob/Enemy_Atlas_Sprite_12.uasset" 1827
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Blob/Enemy_Atlas_Sprite_13.uasset" 1828
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Blob/Enemy_Atlas_Sprite_14.uasset" 1829
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Animations/Blob.uasset" 1830
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Audio/Ouch.uasset" 1831
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Audio/Ouch_Cue.uasset" 1832
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Textures/BlobDeath.uasset" 1833
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_0.uasset" 1834
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_1.uasset" 1835
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_10.uasset" 1836
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_11.uasset" 1837
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_2.uasset" 1838
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_3.uasset" 1839
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_4.uasset" 1840
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_5.uasset" 1841
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_6.uasset" 1842
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_7.uasset" 1843
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_8.uasset" 1844
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath_Sprite_9.uasset" 1845
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/BlobDeathFrames/BlobDeath.uasset" 1846
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BP_TheBlob_Hopper.uasset" 1847
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BP_TheBlob_Hopper_Timed.uasset" 1848
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Cloud/Enemy_Atlas_Sprite_1.uasset" 1849
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Cloud/Enemy_Atlas_Sprite_2.uasset" 1850
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Cloud/Enemy_Atlas_Sprite_3.uasset" 1851
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Animations/CloudAnimation.uasset" 1852
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/TheCloud.uasset" 1853
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Maps/2DNewLevel_BuiltData.uasset" 1854
+"../../../Engine/Content/MapTemplates/Bokeh_5Sides.uasset" 1855
+"../../../Engine/Content/MapTemplates/T_ScreenDirt02_w.uasset" 1856
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Textures/Nebula.uasset" 1857
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/Nebula_Sprite.uasset" 1858
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/TrekBook_BookSprite_3.uasset" 1859
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Maps/2DNewLevel.umap" 1860
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Textures/WheelchairMove.uasset" 1861
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/WheelieFrames/WheelchairMove_Sprite_0.uasset" 1862
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/WheelieFrames/WheelchairMove_Sprite_1.uasset" 1863
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/WheelieFrames/WheelchairMove_Sprite_2.uasset" 1864
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/WheelieFrames/WheelchairMove_Sprite_3.uasset" 1865
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/WheelieFrames/WheelchairMove_Sprite_4.uasset" 1866
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Sprites/WheelieFrames/WheelchairMove_Sprite_5.uasset" 1867
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Animations/Wheelie.uasset" 1868
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/BP_ProfJLP.uasset" 1869
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Audio/Rainbow.uasset" 1870
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Audio/Rainbow_Cue.uasset" 1871
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Maps/2DPuzzleLevel.umap" 1872
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Maps/MainMenu_BuiltData.uasset" 1873
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScroller/Textures/rainbow.uasset" 1874
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Blueprints/UI_Menu.uasset" 1875
+"../../../../../UDV/Unreal Projects/TREKTHERAINBOW/VGDUNRL_TTR_ALPHA/Content/2DSideScrollerBP/Maps/MainMenu.umap" 1876

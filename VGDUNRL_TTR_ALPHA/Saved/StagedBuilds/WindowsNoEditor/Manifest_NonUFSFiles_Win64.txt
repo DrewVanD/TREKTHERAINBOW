@@ -15,4 +15,5 @@ Engine/Binaries/ThirdParty/Ogg/Win64/VS2015/libogg_64.dll	2018-07-04T20:04:01.88
 Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbis_64.dll	2018-07-04T20:04:11.257Z
 Engine/Binaries/ThirdParty/Vorbis/Win64/VS2015/libvorbisfile_64.dll	2018-07-04T20:04:11.267Z
 Engine/Binaries/ThirdParty/OpenVR/OpenVRv1_0_10/Win64/openvr_api.dll	2018-07-04T20:04:02.063Z
-VGDUNRL_TTR_ALPHA.exe	2018-08-05T17:34:33.179Z
+VGDUNRL_TTR_ALPHA/Content/Movies/UE4_Startup_Moving_Logo_1088_60.mp4	2018-08-15T17:29:19.601Z
+VGDUNRL_TTR_ALPHA.exe	2018-08-15T17:32:17.005Z
